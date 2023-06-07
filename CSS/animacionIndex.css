@@ -1,0 +1,22 @@
+@keyframes mover1{
+    0%{
+        transform:translateY(100%);
+        opacity: 0%;
+    }
+    100%{
+        
+        opacity: 100%;
+    }
+}
+
+@keyframes aparecer {
+
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+    
+}

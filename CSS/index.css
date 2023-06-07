@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.tituloCCAI{
+    width: 100%;
+    height:  600px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000000 url("../img/instalacion-4.jpg") no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+    text-align: center;
+}
+
+.divTitulo{
+    background-color: #00000079;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloCCAI .divTitulo h1{
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.tituloCCAI .divTitulo label{
+    font-size: 50px;
+    color: #fff;
+}
+/*==================================================================================
+                            parte 1
+====================================================================================*/
+.imagenesEquipo{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    opacity: 100%;
+    flex-wrap: wrap;
+}
+
+.tituloServicios h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.card{
+    position:relative;
+    width: 200px;
+    height: 300px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}
+
+.card div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    
+}
+
+
+.card .front{
+    transform: perspective(500px) rotateY(0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover .front{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.tituloCard{
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contendoFront{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.imgFront{
+    width: 100%;
+    height: 100%;
+}
+.card .back{
+    background: rgb(184, 255, 162);
+    transform: perspective(500px) rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+}
+
+.contenidoBack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+
+.titloBack{
+    font-family: 'Anton', sans-serif;
+}
+
+
+.card:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+.targetasServicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+/*==================================================================================
+                            parte 2
+====================================================================================*/
+
+.Instalaciones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: rgba(173, 172, 172, 0.322);
+    width: 100%;
+    height: 500px;
+}
+
+.Instalaciones nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.instalacionsTitulo{
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: justify;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 3px  5px 5px rgba(0, 0, 0, 0.322);
+}
+
+.instalacionsTitulo h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Slayer{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.452);
+}
+
+
+.Slayer ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+
+.Slayer li{
+    width: 100%;
+    list-style: none;
+}
+
+.Slayer img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+@media(max-width:1212px){
+    .Instalaciones{
+        height: 700px;
+    }
+}
+/*==================================================================================
+                            parte 3
+====================================================================================*/
+
+.Explorar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    padding: auto;
+}
+
+.todasTargetas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenidoTargetas{
+    text-align: center;
+}
+
+.explorarWeb{
+    font-size: 50px;
+}
+
+.explorarTargetas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+    text-align: center;
+    background-color: rgba(163, 163, 163, 0.418) ;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.explorarTargetas img{
+    width: 100px;
+}
+
+.leerMas{
+    text-decoration: none;
+    width: 160px;
+    height: 35px;
+    background-color:none ;
+    transition: .5s;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+    margin-top: 15px;
+}
+
+.leerMas:hover{
+    transform: translateY(-4px);
+    background-color:  rgba(163, 163, 163, 0.418) ;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.425);
+}
+
+/*==================================================================================
+                            parte 4
+====================================================================================*/
+
+.tituloProyectios{
+    font-size: 50px;
+    text-align: center;
+}
+
+.Proyectos{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.todosProyectos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.imgProyectos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.imagenes{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 2px rgba(85, 85, 85, 0.658);
+    margin-top: 15px;
+}
+
+.imagenes a{
+    width: 100%;
+    height: 100%;
+}
+
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.imagenes img:hover{
+    transform: scale(1.2);
+    filter: brightness(0.6);
+}
+
+/*==================================================================================
+                    parte 5
+====================================================================================*/
+
+.Registro{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Registro img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+}
+.textoRegistro{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;   
+}
+
+.Registrarte{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    transition: 0.5s;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Registrarte:hover{
+    transform: translateY(-5px);
+    background-color: #00000069;
+    box-shadow: 2px 1px 3px 2px rgba(255, 255, 255, 0.425);
+}
+
+.tituloRegistro{
+    font-size: 50px;
+}
+
+.parrafoRegistro{
+    font-size: 25px;
+}
+
+/*==================================================================================
+                    parte 6
+====================================================================================*/
+
+.Investigadores{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hola{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hola h1{
+    font-size: 50px;
+}
+.hola p{
+    font-size: 20px;
+}
+
+.todosInvestigadores{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.cardInvestigador{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px 4px rgba(44, 44, 44, 0.397);
+}
+.difuminado{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    background-color: rgba(255, 255, 255, 0.226);  
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.fondoInvestigadores{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+.imgInvestigador{
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.datosInvestigador{
+    color: #fff;
+    overflow: hidden;
+}
+.datosInvestigador h1{
+    font-size: 30px;
+}
+.datosInvestigador p{
+    font-size: 20px;
+}
+
+/*==================================================================================
+                    parte 7s
+====================================================================================*/
+
+.Comunicate{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.todoComunicate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    height:300px;
+    border-radius: 15px;
+    transition: 1s;
+    background: #fff;
+}
+.todoComunicate h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+.todoComunicate p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.todoComunicate:hover{
+    transform: scale(1.05);
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 6px 4px rgba(44, 44, 44, 0.397);
+    color: rgb(255, 255, 255);
+    background:rgb(189, 189, 189) ;
+}
+
+
+
+.btnContactarnos{
+    text-decoration: none;
+    width: 160px;
+    height: 35px;
+    background-color:none ;
+    transition: .5s;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+    margin-top: 15px;
+}
+
+.btnContactarnos:hover{
+    transform: translateY(-4px);
+    background-color:  rgba(163, 163, 163, 0.418) ;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.425);
+}
