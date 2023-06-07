@@ -127,7 +127,7 @@
                                             Parte 3
 ==================================================================================================-->
     <section id="Explorar" class="Explorar">
-        <h1 class="explorarWeb">Explorar Web</h1>
+        <h1 class="explorarWeb">Explorar Wab</h1>
         <nav class="todasTargetas">
             <div class="explorarTargetas">
                 <img src="img/services.svg" alt="">
