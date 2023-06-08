@@ -196,7 +196,7 @@ header{
 
 .instalacionsTitulo{
     width: 600px;
-    height: 300px;
+    height: 350px;
     background-color: #fff;
     overflow: hidden;
     text-align: justify;
@@ -209,6 +209,10 @@ header{
 .instalacionsTitulo h1{
     text-align: center;
     font-size: 30px;
+}
+
+.instalacionsTitulo p{
+    font-size: 18px;
 }
 
 .Slayer{
