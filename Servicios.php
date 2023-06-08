@@ -102,7 +102,7 @@
                     <h1>Nuestros<br>Servicios</h1>
                     <p>Informacion a qui</p>
                 </div>
-                <a class="Explorar_Boton" href="servicios.php">Leer Más</a>
+                <a class="Explorar_Boton" href="servicios.php">Leer Mucho mas</a>
             </div>
         </nav>
         
