@@ -76,20 +76,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="front">
-                    <img class="imgFront" src="img/biomedica.jpg" alt="IMG4">
-                    <div class="contendoFront">
-                        <h1 class="tituloCard">Titulo proyecto</h1>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="contenidoBack">
-                        <h1 class="titloBack">Titulo</h1>
-                    </div>
-                </div>
-            </div>
             
         </nav>
     </section>
