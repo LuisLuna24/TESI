@@ -17,8 +17,8 @@
         <?php require('Global/cabesera.php'); ?> 
         <div  class="tituloCCAI">
             <div id="divTitulo" class="divTitulo">
-                <h1>CCAI TESI</h1>
-                <label>Bienvenido al <br> Centro de Cooperación Academia Industria <br> del <br> Tecnologico de Estudios Superiores de Ixtapaluca </label>
+                <h1>Tecnológico de Estudios Superiores de Ixtapaluca</h1>
+                <label>Bienvenido al <br>PROYECTO DE CENTRO DE COOPERACIÓN ACADÉMICA – INDUSTRIA(CCAI) <br> del <br> Tecnologico de Estudios Superiores de Ixtapaluca </label>
             </div>
         </div>
     </header>
