@@ -87,22 +87,23 @@
         <nav>
             <div class=instalacionsTitulo>
                 <h1>Nuestras Intalaciones</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate iusto beatae voluptatibus exercitationem quae, doloribus voluptatem impedit facilis ex ratione rerum numquam vitae facere magnam eius quaerat expedita adipisci alias?</p>
+                <p>El Tecnológico de Estudios Superiores de Ixtapaluca (TESI), tiene el compromiso de la mejora continua,fortaleciendo el vínculo entre docentes, estudiantes, industria privada y sector público de la región, mediante consultorías, desarrollo de proyectos que cuentan con investigación aplicada en el área de Gestión Clínica Hospitalaria, Tecnologías de la Información y Comunicaciones, así como el Diseño Arquitectónico, la construcción y desarrollo urbano, todo acoplado a la Industria 4.0;con la finalidad de promover el desarrollo tecnológico y colaborativo entre las PyMEs y el TESI.</p>
             </div>
             <div class="Slayer">
                 <ul>
                     <li>
-                        <img src="img/instalacion-1.jpg" alt="">
+                        <img src="img/TesiFondo.jpg" alt="">
                     </li>
                     <li>
-                        <img src="img/instalacion-2.jpg" alt="">
+                        <img src="img/Sistemsa1.jpg" alt="">
                     </li>
                     <li>
-                        <img src="img/instalacion-3.jpg" alt="">
+                        <img src="img/arquitectura1.jpg" alt="">
                     </li>
                     <li>
-                        <img src="img/instalacion-4.jpg" alt="">
+                        <img src="img/Biomedica1.jpg" alt="">
                     </li>
+                    
                 </ul>
             </div>
         </nav>
