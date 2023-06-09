@@ -36,43 +36,58 @@
                 <div class="front">
                     <img class="imgFront" src="img/sistemas.jpg" alt="IMG1">
                     <div class="contendoFront">
-                        <h1 class="tituloCard">Titulo proyecto</h1>
+                        <h1 class="tituloCard">Industria 4.0</h1>
                     </div>
                 </div>
                 <div class="back">
                     <div class="contenidoBack">
-                        <h1 class="titloBack">Titulo</h1>
-                        <p>Descripción</p>
+                        <h1 class="titloBack">Industrial 4.0</h1>
+                        <p>•	Inteligencia artificial.<br>
+                            •	Desarrollo de software.<br>
+                            •	Base de datos.<br>
+                            •	Automatización y control.<br>
+                            •	Ciberseguridad.<br>
+                            •	Internet de las cosas.<br>
+                            •	Computo forense.<br>
+                            •	Redes.<br>
+                            •	Realidad virtual aumentada.<br>
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="card">
                 <div class="front">
-                    <img class="imgFront" src="img/arquitectura.jpg" alt="IMG2">
+                    <img class="imgFront" src="img/biomedica.jpg" alt="IMG2">
                     <div class="contendoFront">
-                        <h1 class="tituloCard">Titulo proyecto</h1>
+                        <h1 class="tituloCard">Gestion Clinica Hospitalaria</h1>
                     </div>
                 </div>
                 <div class="back">
                     <div class="contenidoBack">
-                        <h1 class="titloBack">Titulo</h1>
-                        <p>Descripción</p>
+                        <h1 class="titloBack">Gestion Clinica<br>Hospitalaria</h1>
+                        <p>•	Mantenimiento correctivo y preventivo de equipos y dispositivos médicos.<br><br>
+                            •	Dispositivos de prueba para equipos médicos.<br><br>
+                            •	Diseño de manuales (Manuales Normalizados de Operación para empresas, hospitales públicos, hospitales privados y clínicas).
+</p>
                     </div>
                 </div>
             </div>
 
             <div class="card">
                 <div class="front">
-                    <img class="imgFront" src="img/electronica.jpg" alt="IMG3">
+                    <img class="imgFront" src="img/arquitectura.jpg" alt="IMG3">
                     <div class="contendoFront">
-                        <h1 class="tituloCard">Titulo proyecto</h1>
+                        <h1 class="tituloCard">Arquitectura 4.0</h1>
                     </div>
                 </div>
                 <div class="back">
                     <div class="contenidoBack">
-                        <h1 class="titloBack">Titulo</h1>
-                        <p>Descripción</p>
+                        <h1 class="titloBack">Arquitectura 4.0</h1>
+                        <p>•	Pruebas de concreto.<br>
+                            •	Diseño de planos.<br>
+                            •	Presupuesto de construcción.<br>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -86,8 +101,9 @@
     <section id="Instalaciones" class="Instalaciones">
         <nav>
             <div class=instalacionsTitulo>
-                <h1>Nuestras Intalaciones</h1>
+                <h1>¿Quienes Somos?</h1>
                 <p>El Tecnológico de Estudios Superiores de Ixtapaluca (TESI), tiene el compromiso de la mejora continua,fortaleciendo el vínculo entre docentes, estudiantes, industria privada y sector público de la región, mediante consultorías, desarrollo de proyectos que cuentan con investigación aplicada en el área de Gestión Clínica Hospitalaria, Tecnologías de la Información y Comunicaciones, así como el Diseño Arquitectónico, la construcción y desarrollo urbano, todo acoplado a la Industria 4.0;con la finalidad de promover el desarrollo tecnológico y colaborativo entre las PyMEs y el TESI.</p>
+                <a  href="Quienes_Somos.php" class="cta"><span>Leer Mas</span><svg viewBox="0 0 13 10" height="10px" width="15px"><path d="M1,5 L11,5"></path><polyline points="8 1 12 5 8 9"></polyline></svg></a>
             </div>
             <div class="Slayer">
                 <ul>
@@ -103,7 +119,6 @@
                     <li>
                         <img src="img/Biomedica1.jpg" alt="">
                     </li>
-                    
                 </ul>
             </div>
         </nav>
@@ -199,42 +214,36 @@
 ==================================================================================================-->
 <section id="Investigadores" class="Investigadores">
         <nav class="hola">
-            <h1>Investigadores</h1>
+            <h1>RESPONSABLES DEL PROYECTO</h1>
             <p>Descripcion de investigadores</p>
             <nav class="todosInvestigadores">
                 
                 <div class="cardInvestigador">
                     <div class="datosInvestigador">
+                        <h2>Representante <br> Legal</h2>
                         <img class="imgInvestigador" src="img/client-2.jpg" alt="">
-                        <h1>Nombre</h1>
-                        <p>Puesto</p>
+                        <h1>Mtro. Demetrio Moreno Arcega</h1>
+                        <p>Director General</p>
                     </div>
                     <img class="fondoInvestigadores" src="img/sistemas.jpg" alt="">
                     <div class=difuminado></div>
                 </div>
                 <div class="cardInvestigador">
                     <div class="datosInvestigador">
+                        <h2>Resposable Administrativo</h2>
                         <img class="imgInvestigador" src="img/client-2.jpg" alt="">
-                        <h1>Nombre</h1>
-                        <p>Puesto</p>
+                        <h1>L.C. Evaristo Vázquez Hernández</h1>
+                        <p>Director de Administración y Finanzas</p>
                     </div>
                     <img class="fondoInvestigadores" src="img/sistemas.jpg" alt="">
                     <div class=difuminado></div>
                 </div>
                 <div class="cardInvestigador">
                     <div class="datosInvestigador">
+                        <h2>Cordinador de Proyectos</h2>
                         <img class="imgInvestigador" src="img/client-2.jpg" alt="">
-                        <h1>Nombre</h1>
-                        <p>Puesto</p>
-                    </div>
-                    <img class="fondoInvestigadores" src="img/sistemas.jpg" alt="">
-                    <div class=difuminado></div>
-                </div>
-                <div class="cardInvestigador">
-                    <div class="datosInvestigador">
-                        <img class="imgInvestigador" src="img/client-2.jpg" alt="">
-                        <h1>Nombre</h1>
-                        <p>Puesto</p>
+                        <h1>Mtra. María Elena Orozco Álvarez</h1>
+                        <p>Subdirectora de Estudios Profesionalesss</p>
                     </div>
                     <img class="fondoInvestigadores" src="img/sistemas.jpg" alt="">
                     <div class=difuminado></div>
