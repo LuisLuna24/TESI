@@ -24,15 +24,19 @@
                                             Parte 1
 ==================================================================================================-->
     <section class="Servicios">
-    <h1>Nuestros Servicios</h1>
+    <h1 class="Servicios-Titulo">Nuestros Servicios</h1>
+    <p>El centro CAI busca brindar soluciones tecnológicas y mejorar las condiciones de ejecución de procesos de las empresas y distintos sectores de la<br> zona, con el objetivo de investigar, diseñar e innovar procesos y productos.</p>
         <nav class="Servicios_Contenedor">
             <div class="Servicios_Targetas">
                 <div class="Servicios_Targetas_Img">
                     <img src="img/sistemas.jpg" alt="">
                 </div>
                 <div class="Servicios_Targetas_Texto">
-                    <h1>Titulo</h1>
-                    <p>Parrafo</p>
+                    <h1>Arquitectura 4.0</h1>
+                    <p>•	Pruebas de concreto.<br>
+                        •	Diseño de planos.<br>
+                        •	Presupuesto de construcción<br>
+                    </p>
                 </div>
             </div>
             <div class="Servicios_Targetas">
@@ -40,8 +44,18 @@
                     <img src="img/sistemas.jpg" alt="">
                 </div>
                 <div class="Servicios_Targetas_Texto">
-                    <h1>Titulo</h1>
-                    <p>Parrafo</p>
+                    <h1 class="Servicios_Targetas_Texto_Titulo">Industria 4.0</h1>
+                    <p>
+                        •	Inteligencia artificial.<br>
+                        •	Desarrollo de software.<br>
+                        •	Base de datos.<br>
+                        •	Automatización y control.<br>
+                        •	Ciberseguridad.<br>
+                        •	Internet de las cosas.<br>
+                        •	Computo forense.<br>
+                        •	Redes.<br>
+                        •	Realidad virtual aumentada.<br>
+                    </p>
                 </div>
             </div>
             <div class="Servicios_Targetas">
@@ -49,60 +63,29 @@
                     <img src="img/sistemas.jpg" alt="">
                 </div>
                 <div class="Servicios_Targetas_Texto">
-                    <h1>Titulo</h1>
-                    <p>Parrafo</p>
+                    <h1>Gestión clínica hospitalaria </h1>
+                    <p>•	Mantenimiento correctivo y preventivo de equipos y dispositivos médicos.<br>
+                        •	Dispositivos de prueba para equipos médicos.<br>
+                        •	Diseño de sistemas de gestión digital para documentación clínica.<br>
+                    </p>
                 </div>
             </div>
-            <div class="Servicios_Targetas">
-                <div class="Servicios_Targetas_Img">
-                    <img src="img/sistemas.jpg" alt="">
-                </div>
-                <div class="Servicios_Targetas_Texto">
-                    <h1>Titulo</h1>
-                    <p>Parrafo</p>
-                </div>
-            </div>
-
         </nav>
     </section>
 
 <!--===============================================================================================
                                             Parte 2
 ==================================================================================================-->
-<section id="Explorar" class="Explorar">
-        <h1 class="Explorar_Titulo">Explorar Web</h1>
-        <nav class="Explorar_Todas_Targetas">
-            <div class="Explorar_Targetas">
-                <img src="img/services.svg" alt="">
-                <div class="Explorar_Targetas_Textos">
-                    <h1>Nuestros<br>Servicios</h1>
-                    <p>Informacion a qui</p>
+<section id="Explorar" class="Actividades">
+        <h1 class="Actividades_Titulo">Nuestras Actividades</h1>
+        <nav class="Actividades_Todas_Targetas">
+            <div class="Actividades_Targetas">
+                <div class="">
+
                 </div>
-                <a class="Explorar_Boton" href="servicios.php">Leer Más</a>
-            </div>
-            <div class="Explorar_Targetas">
-                <img src="img/services.svg" alt="">
-                <div class="Explorar_Targetas_Textos">
-                    <h1>Nuestros<br>Servicios</h1>
-                    <p>Informacion a qui</p>
+                <div>
+
                 </div>
-                <a class="Explorar_Boton" href="servicios.php">Leer Más</a>
-            </div>
-            <div class="Explorar_Targetas">
-                <img src="img/services.svg" alt="">
-                <div class="Explorar_Targetas_Textos">
-                    <h1>Nuestros<br>Servicios</h1>
-                    <p>Informacion a qui</p>
-                </div>
-                <a class="Explorar_Boton" href="servicios.php">Leer Más</a>
-            </div>
-            <div class="Explorar_Targetas">
-                <img src="img/services.svg" alt="">
-                <div class="Explorar_Targetas_Textos">
-                    <h1>Nuestros<br>Servicios</h1>
-                    <p>Informacion a qui</p>
-                </div>
-                <a class="Explorar_Boton" href="servicios.php">Leer Mucho mas</a>
             </div>
         </nav>
         

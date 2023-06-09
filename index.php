@@ -42,16 +42,7 @@
                 <div class="back">
                     <div class="contenidoBack">
                         <h1 class="titloBack">Industrial 4.0</h1>
-                        <p>•	Inteligencia artificial.<br>
-                            •	Desarrollo de software.<br>
-                            •	Base de datos.<br>
-                            •	Automatización y control.<br>
-                            •	Ciberseguridad.<br>
-                            •	Internet de las cosas.<br>
-                            •	Computo forense.<br>
-                            •	Redes.<br>
-                            •	Realidad virtual aumentada.<br>
-                        </p>
+                        <p>En la industria 4.0 se cubre las nesecidades de las diferentes area dela salud como sistemas de modelados con realidad aumentada previos a cirugías, seguridad publica  como mapeo inteligente de zonas delictivas, empresas en general con desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa entre otros servicios.  </p>
                     </div>
                 </div>
             </div>
@@ -66,10 +57,7 @@
                 <div class="back">
                     <div class="contenidoBack">
                         <h1 class="titloBack">Gestion Clinica<br>Hospitalaria</h1>
-                        <p>•	Mantenimiento correctivo y preventivo de equipos y dispositivos médicos.<br><br>
-                            •	Dispositivos de prueba para equipos médicos.<br><br>
-                            •	Diseño de manuales (Manuales Normalizados de Operación para empresas, hospitales públicos, hospitales privados y clínicas).
-</p>
+                        <p>Cubrir las necesidades de los hospitales públicos y privados de segundo nivel, clínicas o centros de salud  y empresas de la zona dedicadas al ámbito biomédico, donde puede brindar mantenimiento a dispositivos médicos y con ello solucionar problemas de forma inmediata.</p>
                     </div>
                 </div>
             </div>
@@ -84,10 +72,7 @@
                 <div class="back">
                     <div class="contenidoBack">
                         <h1 class="titloBack">Arquitectura 4.0</h1>
-                        <p>•	Pruebas de concreto.<br>
-                            •	Diseño de planos.<br>
-                            •	Presupuesto de construcción.<br>
-                        </p>
+                        <p>Con los años al paso del crecimiento urbano en los municipios de Ixtapaluca, Chalco, Valle de Chalco, Texcoco, Chimalhuacán y La Paz, ha generado la necesidad de proveer servicios técnicos y profesionales relacionados con la arquitectura y la industria de la construcción con los cuales se puedan ofrecer asesorías técnicas, pruebas de laboratorio a los materiales. </p>
                     </div>
                 </div>
             </div>
