@@ -24,53 +24,65 @@
                                             Parte 1
 ==================================================================================================-->
     <section class="Servicios">
-    <h1 class="Servicios-Titulo">Nuestros Servicios</h1>
-    <p>El centro CAI busca brindar soluciones tecnológicas y mejorar las condiciones de ejecución de procesos de las empresas y distintos sectores de la<br> zona, con el objetivo de investigar, diseñar e innovar procesos y productos.</p>
-        <nav class="Servicios_Contenedor">
-            <div class="Servicios_Targetas">
-                <div class="Servicios_Targetas_Img">
-                    <img src="img/sistemas.jpg" alt="">
+        <h1 class="Servicios-Titulo">Nuestros Servicios</h1>
+        <p class="Servicio_Contenido">El centro CAI busca brindar soluciones tecnológicas y mejorar las condiciones de ejecución de procesos de las empresas y distintos sectores de la<br> zona, con el objetivo de investigar, diseñar e innovar procesos y productos. <br> Las actividades que se pretender llevar a cabo son las siguientes:</p>
+        <div class="Cards">
+            <nav class="Servicios_Contenedor">
+                <img class="Imagen_Servicios" src="img/img1.jpg" alt="">
+                <div class="Servicios_Card">
+                    <div>
+                        <h1 class="Card_Titulo">Industria 4.0</h1>
+                        <p class="Card_Contenido Contenido1">•	Desarrollo de software para los sectores gubernamentales, privados y públicos.<br>•	Desarrollo de plataformas web.<br>•	Automatización de procesos.<br>•	Servicios de mantenimiento de red y equipo de cómputo a empresas.<br>•	Servicios de ciberseguridad. <br>•	Capacitaciones para la zona oriente. </p>
+                    </div>
+                    <div>
+                        <h1>Algunas de las empresas que se trabaja:</h1>
+                        <p class="Card_Contenido Contenido2"> •	Smart Force.<br>•	Crystal Software House.<br>•	Ilunjo S.A.</p>
+                    </div>
+                    <div>
+                        <h1>Con estas empresas se pretende trabajar:</h1>
+                        <p class="Card_Contenido Contenido3">•	Asesoría en Tecnologías de la Industria 4.0<br>•	Yakult.<br>•	Cruz Roja.<br>•	Centros Educativos (Básico, Medio Superior y Superior).<br>•	Centros comerciales.<br>•	Plazas de cobro (Autopistas).<br>•	Unidades habitacionales.<br>•	Asentamientos de colonias nuevas. (Ayuntamiento).<br>•	Alimentos Especializados Gómez S.A de C.V. <br>•	Seguridad Pública.</p>
+                    </div>
                 </div>
-                <div class="Servicios_Targetas_Texto">
-                    <h1>Arquitectura 4.0</h1>
-                    <p>•	Pruebas de concreto.<br>
-                        •	Diseño de planos.<br>
-                        •	Presupuesto de construcción<br>
-                    </p>
+            </nav>
+
+            <nav class="Servicios_Contenedor">
+                <img class="Imagen_Servicios" src="img/img1.jpg" alt="">
+                <div class="Servicios_Card">
+                    <div>
+                        <h1 class="Card_Titulo">Industria 4.0</h1>
+                        <p class="Card_Contenido Contenido1">•	Desarrollo de software para los sectores gubernamentales, privados y públicos.<br>•	Desarrollo de plataformas web.<br>•	Automatización de procesos.<br>•	Servicios de mantenimiento de red y equipo de cómputo a empresas.<br>•	Servicios de ciberseguridad. <br>•	Capacitaciones para la zona oriente. </p>
+                    </div>
+                    <div>
+                        <h1>Algunas de las empresas que se trabaja:</h1>
+                        <p class="Card_Contenido Contenido2"> •	Smart Force.<br>•	Crystal Software House.<br>•	Ilunjo S.A.</p>
+                    </div>
+                    <div>
+                        <h1>Con estas empresas se pretende trabajar:</h1>
+                        <p class="Card_Contenido Contenido3">•	Asesoría en Tecnologías de la Industria 4.0<br>•	Yakult.<br>•	Cruz Roja.<br>•	Centros Educativos (Básico, Medio Superior y Superior).<br>•	Centros comerciales.<br>•	Plazas de cobro (Autopistas).<br>•	Unidades habitacionales.<br>•	Asentamientos de colonias nuevas. (Ayuntamiento).<br>•	Alimentos Especializados Gómez S.A de C.V. <br>•	Seguridad Pública.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="Servicios_Targetas">
-                <div class="Servicios_Targetas_Img">
-                    <img src="img/sistemas.jpg" alt="">
+            </nav>
+
+            <nav class="Servicios_Contenedor">
+                <img class="Imagen_Servicios" src="img/img1.jpg" alt="">
+                <div class="Servicios_Card">
+                    <div>
+                        <h1 class="Card_Titulo">Industria 4.0</h1>
+                        <p class="Card_Contenido Contenido1">•	Desarrollo de software para los sectores gubernamentales, privados y públicos.<br>•	Desarrollo de plataformas web.<br>•	Automatización de procesos.<br>•	Servicios de mantenimiento de red y equipo de cómputo a empresas.<br>•	Servicios de ciberseguridad. <br>•	Capacitaciones para la zona oriente. </p>
+                    </div>
+                    <div>
+                        <h1>Algunas de las empresas que se trabaja:</h1>
+                        <p class="Card_Contenido Contenido2"> •	Smart Force.<br>•	Crystal Software House.<br>•	Ilunjo S.A.</p>
+                    </div>
+                    <div>
+                        <h1>Con estas empresas se pretende trabajar:</h1>
+                        <p class="Card_Contenido Contenido3">•	Asesoría en Tecnologías de la Industria 4.0<br>•	Yakult.<br>•	Cruz Roja.<br>•	Centros Educativos (Básico, Medio Superior y Superior).<br>•	Centros comerciales.<br>•	Plazas de cobro (Autopistas).<br>•	Unidades habitacionales.<br>•	Asentamientos de colonias nuevas. (Ayuntamiento).<br>•	Alimentos Especializados Gómez S.A de C.V. <br>•	Seguridad Pública.</p>
+                    </div>
                 </div>
-                <div class="Servicios_Targetas_Texto">
-                    <h1 class="Servicios_Targetas_Texto_Titulo">Industria 4.0</h1>
-                    <p>
-                        •	Inteligencia artificial.<br>
-                        •	Desarrollo de software.<br>
-                        •	Base de datos.<br>
-                        •	Automatización y control.<br>
-                        •	Ciberseguridad.<br>
-                        •	Internet de las cosas.<br>
-                        •	Computo forense.<br>
-                        •	Redes.<br>
-                        •	Realidad virtual aumentada.<br>
-                    </p>
-                </div>
-            </div>
-            <div class="Servicios_Targetas">
-                <div class="Servicios_Targetas_Img">
-                    <img src="img/sistemas.jpg" alt="">
-                </div>
-                <div class="Servicios_Targetas_Texto">
-                    <h1>Gestión clínica hospitalaria </h1>
-                    <p>•	Mantenimiento correctivo y preventivo de equipos y dispositivos médicos.<br>
-                        •	Dispositivos de prueba para equipos médicos.<br>
-                        •	Diseño de sistemas de gestión digital para documentación clínica.<br>
-                    </p>
-                </div>
-            </div>
-        </nav>
+            </nav>
+
+        </div>
+        
     </section>
 
 <!--===============================================================================================
