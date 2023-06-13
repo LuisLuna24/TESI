@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿Quienes Somos?</title>
-    <link rel="stylesheet" href="CSS/Quienes_Somos.css">
+    <title>Investigacion</title>
+    <link rel="stylesheet" href="CSS/investigacion.css">
 </head>
 <body>
 <!--===============================================================================================
@@ -14,7 +14,7 @@
         <?php require('Global/cabesera.php'); ?> 
         <div  class="tituloCCAI">
             <div id="divTitulo" class="divTitulo">
-                <h1>¿Quienes Somos?</h1>
+                <h1>Investigacon</h1>
                 <label>Bienvenido</label>
             </div>
         </div>
@@ -25,7 +25,6 @@
 ==================================================================================================-->
     <footer class="fin">
         <?php require('Global/footer.php');?>
-    </footer>
-
+    </footer> 
 </body>
 </html>
