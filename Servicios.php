@@ -30,7 +30,7 @@
         </div>
         <div class="Actividades_Contenedor">
             <div class="Acividades_Card">
-                <img src="img/img1.jpg" alt="">
+                <img class="Actividades_Card_Img" src="img/img1.jpg" alt="">
                 <div class="Actividades_Card_Contenido">
                     <h1>Industria 4.0</h1>
                     <p>En la industria 4.0 se cubre las nesecidades de las diferentes area dela salud como sistemas de modelados con realidad aumentada previos a cirugías, seguridad publica  como mapeo inteligente de zonas delictivas, empresas en general con desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa entre otros servicios.</p>
@@ -38,18 +38,18 @@
             </div>
 
             <div class="Acividades_Card">
-                <img src="img/img4.jpg" alt="">
+                <img class="Actividades_Card_Img" src="img/img4.jpg" alt="">
                 <div class="Actividades_Card_Contenido">
-                    <h1>Industria 4.0</h1>
-                    <p>En la industria 4.0 se cubre las nesecidades de las diferentes area dela salud como sistemas de modelados con realidad aumentada previos a cirugías, seguridad publica  como mapeo inteligente de zonas delictivas, empresas en general con desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa entre otros servicios.</p>
+                    <h1>Gestion Clinica<br>Hospitalaria</h1>
+                    <p>Cubrir las necesidades de los hospitales públicos y privados de segundo nivel, clínicas o centros de salud  y empresas de la zona dedicadas al ámbito biomédico, donde puede brindar mantenimiento a dispositivos médicos y con ello solucionar problemas de forma inmediata.</p>
                 </div>
             </div>
 
             <div class="Acividades_Card">
-                <img src="img/img5.jpg" alt="">
+                <img class="Actividades_Card_Img" src="img/img5.jpg" alt="">
                 <div class="Actividades_Card_Contenido">
-                    <h1>Industria 4.0</h1>
-                    <p>En la industria 4.0 se cubre las nesecidades de las diferentes area dela salud como sistemas de modelados con realidad aumentada previos a cirugías, seguridad publica  como mapeo inteligente de zonas delictivas, empresas en general con desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa entre otros servicios.</p>
+                    <h1>Arquitectura 4.0</h1>
+                    <p>Con los años al paso del crecimiento urbano en los municipios de Ixtapaluca, Chalco, Valle de Chalco, Texcoco, Chimalhuacán y La Paz, ha generado la necesidad de proveer servicios técnicos y profesionales relacionados con la arquitectura y la industria de la construcción con los cuales se puedan ofrecer asesorías técnicas, pruebas de laboratorio a los materiales. </p>
                 </div>
             </div>
         </div>
@@ -124,12 +124,20 @@
         
     </section>
 
+<!--===============================================================================================
+                                            Parte 3
+==================================================================================================-->
+    <section class="Contacto">
+        <nav class="Contacto_Contenedor">
+            
+        </nav>
+    </section>
 
 <!--===============================================================================================
                                             Parte final
 ==================================================================================================-->
     <footer class="fin">
-        <?php require('Global/footer.php');?>
+        <?php require('Global/Formulario.php');?>
     </footer>
 </body>
 </html>
