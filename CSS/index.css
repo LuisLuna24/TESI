@@ -294,6 +294,49 @@ header{
 /*==================================================================================
                             parte 3
 ====================================================================================*/
+.Contacto{
+    width: 100%;
+    min-height: 400px;
+    background: #000000 url("../img/TesiFondo.jpg") no-repeat;   
+    background-size: 100% 100%;
+    padding: 5%;
+    margin-top: 30px;
+    position: relative;
+    display:flex;
+    align-items: center;
+}
+.Contacto_Contenedor{
+    padding: 10px;
+    flex: 0 0 250px;
+    background: rgba(255, 255, 255, 0.61);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    position: relative;
+}
+
+.Contacto_Titulo{
+    font-size: 40px;
+}
+
+@media(max-width:700px){
+    .Contacto_Titulo{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:350px){
+    .Contacto_Titulo{
+        font-size: 25px;
+    }
+}
+
+/*==================================================================================
+                            parte 4
+====================================================================================*/
 
 .Explorar{
     width: 100%;
@@ -304,6 +347,7 @@ header{
     position: relative;
     margin-top: 30px;
     padding: auto;
+    text-align: center;
 }
 
 .Explorar_Targetas{
@@ -375,7 +419,7 @@ header{
 }
 
 /*==================================================================================
-                            parte 4
+                            parte 5
 ====================================================================================*/
 .Impacto{
     width: 100%;
@@ -383,6 +427,7 @@ header{
     margin-top: 20px;background: #fff url("../img/instalacion-4.jpg") no-repeat center center;
     object-fit: cover;
     background-size: 100% 100%;
+    position: relative;
 }
 
 .Impacto_Contenedor{
@@ -391,12 +436,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: end;
-    margin-left: -1%;
 }
 
 .Impacto_Contenido{
     width: 40%;
-    height: 50%;
+    max-height: 95%;
     padding: 10px;
     background: rgba(255, 255, 255, 0.61);
     border-radius: 16px;
@@ -430,88 +474,15 @@ header{
     }
     .Impacto_Contenido{
         width: 90%;
-        height: 62%;
+        height: 90%;
 
+    }
+    .Impacto_Titulo{
+        font-size: 20px;
+    }
+    .ImpactoContenido{
+        font-size: 14px;
     }
 }
 
-/*==================================================================================
-                            parte 5
-====================================================================================*/
 
-.Proyectos{
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.Proyectos_Titulo{
-    font-size: 50px;
-    text-align: center;
-}
-
-.Proyectos_Contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.container-slider{
-    width: 90%;
-    max-width: 400px;
-    position: relative;
-}
-
-.slider{
-    display: flex;
-    width: 400%;
-    height: 400px;
-    background-color: #234567;
-    margin-left: -100%;
-}
-.slider__section{
-    width: 100%;
-}
-
-.Contenedor_Sliders .Todos_botn{
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.slider__btn{
-    width: 40px;
-    height: 40px;
-    background-color: #5D9D0B;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: monospace;
-    text-align: center;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.slider__btn--left{
-    left: 10px;
-}
-
-.slider__btn--rigth{
-    right: 10px;
-}

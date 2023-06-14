@@ -96,8 +96,21 @@
         </nav>
         
     </section>
+
 <!--===============================================================================================
                                             Parte 3
+==================================================================================================-->
+    <Section class="Contacto" id="Contacto_Index">
+        <nav class="Contacto_Contenedor">
+            <div class="Contacto_Texto">
+                <h1 class="Contacto_Titulo">Contactanos</h1>
+                <p class="Contacto_Texto">Sí, te interesa saber más sobre nuestros servicios</p>
+                <a href="contacto.php" class="Contacto_Boton">Contactanos</a>
+            </div>
+        </nav>    
+    </Section>
+<!--===============================================================================================
+                                            Parte 4
 ==================================================================================================-->
 <section id="Explorar" class="Explorar">
         <h1 class="Explorar_Web">Explorar Web</h1>
@@ -138,7 +151,7 @@
         
     </section>
 <!--===============================================================================================
-                                            Parte 4
+                                            Parte 5
 ==================================================================================================-->
     <section class="Impacto" id="Impacto">
         <div class="Impacto_Contenedor">
@@ -148,17 +161,7 @@
             </div>
         </div>
     </section>
-<!--===============================================================================================
-                                            Parte 5
-==================================================================================================-->
-    <Section class="Vinculacion">
-        <nav class="Vinculacion_Titulo">
-            
-        </nav>
-        <nav class="Vinculacion_Contenedor">
 
-        </nav>
-    </Section>
 
 <!--===============================================================================================
                                             Parte final
