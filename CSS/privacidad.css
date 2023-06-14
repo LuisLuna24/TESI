@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .tituloCCAI{
+    width: 100%;
+    height:  600px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000000 url("../img/TesiFondo.jpg") no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+    text-align: center;
+  }
+  
+  .divTitulo{
+    background-color: #00000079;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tituloCCAI .divTitulo h1{
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .tituloCCAI .divTitulo label{
+    font-size: 50px;
+    color: #fff;
+  }

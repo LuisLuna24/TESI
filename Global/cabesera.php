@@ -23,11 +23,11 @@
                 </li>
 
                 <li class="menu__item">
-                    <a href="#" class="menu__link">Privacidad</a>
+                    <a href="privacidad.php" class="menu__link">Privacidad</a>
                 </li>
 
                 <li class="menu__item">
-                    <a href="inicio.php" class="menu__link">Contacto</a>
+                    <a href="contacto.php" class="menu__link">Contacto</a>
                 </li>
             </ul>
 
