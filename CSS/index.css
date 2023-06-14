@@ -4,168 +4,42 @@
     box-sizing: border-box;
 }
 
+
+
 header{
     width: 100%;
     position: relative;
     overflow: hidden;
 }
 
-.tituloCCAI{
-    width: 100%;
-    height:  600px;
-    overflow: hidden;
+.Titulo_Tesi{
+    margin-top: 70px;
+    display: grid;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: #000000 url("../img/instalacion-4.jpg") no-repeat;
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/TesiFondo.jpg");
     background-size: 100% 100%;
-    z-index: -1;
+    place-content: center;
     text-align: center;
 }
 
-.divTitulo{
-    background-color: #00000079;
+.Titulo_Tesi h1{
+    font-size: 60px;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: #fff;
 }
 
-.tituloCCAI .divTitulo h1{
-    font-size: 100px;
+.Titulo_Tesi label{
+    font-size: 30px;
     color: #fff;
     text-align: center;
 }
 
-.tituloCCAI .divTitulo label{
-    font-size: 50px;
-    color: #fff;
-}
 /*==================================================================================
                             parte 1
-====================================================================================*/
-.imagenesEquipo{
-    width: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-    opacity: 100%;
-    flex-wrap: wrap;
-}
-
-.tituloServicios h1{
-    margin-top: 30px;
-    font-size: 50px;
-    text-align: center;
-}
-
-.card{
-    position:relative;
-    width: 200px;
-    height: 300px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    
-}
-
-.card div{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    transition: 1s;
-    
-}
-
-
-.card .front{
-    transform: perspective(500px) rotateY(0deg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Anton', sans-serif;
-    text-align: center;
-    background-color: aqua;
-    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.425);
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.card:hover .front{
-    transform: perspective(500px) rotateY(180deg);
-}
-
-.tituloCard{
-    background-color: rgba(0, 0, 0, 0.438);
-    width: 100%;
-    height: 40px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contendoFront{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.imgFront{
-    width: 100%;
-    height: 100%;
-}
-.card .back{
-    background: rgb(184, 255, 162);
-    transform: perspective(500px) rotateY(180deg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.425);
-    border-radius: 10px;
-}
-
-.contenidoBack{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: start;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    overflow: hidden;
-
-}
-
-.titloBack{
-    font-family: 'Anton', sans-serif;
-}
-
-
-.card:hover .back{
-    transform: perspective(500px) rotateY(360deg);
-}
-
-.targetasServicios{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-/*==================================================================================
-                            parte 2
 ====================================================================================*/
 
 .Instalaciones{
@@ -176,9 +50,11 @@ header{
     position: relative;
     flex-direction: row;
     margin-top: 50px;
-    background-color: rgba(173, 172, 172, 0.322);
     width: 100%;
-    height: 500px;
+    
+}
+.Instalaciones_Descripcion{
+    text-align: center;
 }
 
 .Instalaciones nav{
@@ -188,33 +64,42 @@ header{
     align-items: center;
     position: relative;
     flex-direction: row;
+    background-color: #cccacad7;
     width: 100%;
     height: 100%;
+    padding: 20px;
+    margin-top: 20px;
 }
 
-.instalacionsTitulo{
-    width: 600px;
-    height: 300px;
-    background-color: #fff;
-    overflow: hidden;
-    text-align: justify;
+.Instalaciones_Titulo{
+    width:620px;
+    min-height: 200px;
+    display: grid;
+    place-content: center;
     padding: 10px;
-    margin-right: 10px;
+    text-align: justify;
+    background-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 3px  5px 5px rgba(0, 0, 0, 0.322);
 }
 
-.instalacionsTitulo h1{
+.Instalaciones_Titulo h1{
     text-align: center;
     font-size: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.Instalaciones_Titulo p{
+    font-size: 18px;
 }
 
 .Slayer{
-    width: 600px;
-    height: 400px;
+    min-width: 260px;
     overflow: hidden;
+    max-width: 600px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.452);
+    margin: 10px;
 }
 
 
@@ -248,10 +133,163 @@ header{
     100%{margin-left: -300%;}
 }
 
-@media(max-width:1212px){
-    .Instalaciones{
-        height: 700px;
+@media(max-width:700px){
+    
+
+    .Instalaciones_Titulo h1{
+        padding-top: 10px;
+        font-size: 30px;
     }
+    .Titulo_Tesi h1{
+        font-size: 45px;
+    }
+    
+    .Titulo_Tesi label{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:300px){
+    .Instalaciones_Titulo h1{
+        padding-top: 10px;
+        font-size: 19px;
+    }
+    .card{
+        width: 200px;
+        height: 300px;
+    }
+    .Titulo_Tesi h1{
+        font-size: 40px;
+    }
+    
+    .Titulo_Tesi label{
+        font-size: 20px;
+    }
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #5D9D0B;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #1B1D24;
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: #365A08;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+    stroke: #fff;
+   }
+
+   .cta:hover span{
+    color: white;
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }
+/*==================================================================================
+                            parte 2
+====================================================================================*/
+.Servicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.Servicios_Titulo{
+    width: 85%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Servicios_Titulo h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.linea{
+    width: 90%;
+    height: 10px;
+    background-color: #365A08;
+    margin-bottom: 20px;
+}
+
+.Servicios_Targetas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Servicio_Card{
+    min-width: 270px;
+    width: 350px;
+    min-height: 350px;
+    height: 570px;
+    background-color: #cccacad7;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px 0 rgba(0, 0, 0, 0.685);
+    margin-top: 20px;
+}
+
+.Servicio_Card img{
+    width: 100%;
+    border-radius: 15px;
+    
 }
 /*==================================================================================
                             parte 3
@@ -264,11 +302,11 @@ header{
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: auto;
 }
 
-.todasTargetas{
+.Explorar_Targetas{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -278,15 +316,20 @@ header{
     flex-wrap: wrap;
 }
 
-.contenidoTargetas{
+.Explorar_Card_Contenido{
     text-align: center;
+    color: #fff;
 }
 
-.explorarWeb{
+.Explorar_Card_Contenido h1{
+    font-size: 25px;
+}
+
+.Explorar_Web{
     font-size: 50px;
 }
 
-.explorarTargetas{
+.Explorar_Card{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -294,16 +337,17 @@ header{
     width: 250px;
     height: 450px;
     text-align: center;
-    background-color: rgba(163, 163, 163, 0.418) ;
+    background-color:#1b1d24 ;
     border-radius: 15px;
     margin-top: 15px;
 }
 
-.explorarTargetas img{
+.Explorar_Card img{
     width: 100px;
+    filter: invert(44%) sepia(100%) saturate(927%) hue-rotate(52deg) brightness(92%) contrast(91%);
 }
 
-.leerMas{
+.Explorar_Card_Boton{
     text-decoration: none;
     width: 160px;
     height: 35px;
@@ -314,24 +358,86 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 17px;
-    color: black;
+    color: white;
     margin-top: 15px;
 }
 
-.leerMas:hover{
+.Explorar_Card_Boton:hover{
     transform: translateY(-4px);
     background-color:  rgba(163, 163, 163, 0.418) ;
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.425);
 }
 
+@media(max-width:700px){
+    .Explorar_Card{
+        height: 280px;
+    }
+}
+
 /*==================================================================================
                             parte 4
 ====================================================================================*/
-
-.tituloProyectios{
-    font-size: 50px;
-    text-align: center;
+.Impacto{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;background: #fff url("../img/instalacion-4.jpg") no-repeat center center;
+    object-fit: cover;
+    background-size: 100% 100%;
 }
+
+.Impacto_Contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: -1%;
+}
+
+.Impacto_Contenido{
+    width: 40%;
+    height: 50%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.61);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: justify;
+    display:grid;
+    place-content: center;
+}
+
+.ImpactoContenido{
+    font-size: 19px;
+}
+@media(max-width:300px){
+    .Impacto_Titulo{
+        font-size: 20px;
+    }
+    .ImpactoContenido{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 700px){
+    .Impacto_Contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .Impacto_Contenido{
+        width: 90%;
+        height: 62%;
+
+    }
+}
+
+/*==================================================================================
+                            parte 5
+====================================================================================*/
 
 .Proyectos{
     width: 100%;
@@ -344,7 +450,12 @@ header{
     margin-top: 50px;
 }
 
-.todosProyectos{
+.Proyectos_Titulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.Proyectos_Contenedor{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -354,262 +465,53 @@ header{
     width: 100%;
 }
 
-.imgProyectos{
+.container-slider{
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+.slider{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 15px;
-}
-
-.imagenes{
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 2px 2px 3px 2px rgba(85, 85, 85, 0.658);
-    margin-top: 15px;
-}
-
-.imagenes a{
-    width: 100%;
-    height: 100%;
-}
-
-.imagenes img{
-    width: 100%;
-    height: 100%;
-    transition: 1s;
-}
-
-.imagenes img:hover{
-    transform: scale(1.2);
-    filter: brightness(0.6);
-}
-
-/*==================================================================================
-                    parte 5
-====================================================================================*/
-
-.Registro{
-    width: 100%;
+    width: 400%;
     height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
+    background-color: #234567;
+    margin-left: -100%;
+}
+.slider__section{
+    width: 100%;
 }
 
-.Registro img{
-    position: absolute;
+.Contenedor_Sliders .Todos_botn{
     width: 100%;
     height: 100%;
-    z-index: -1;
+    background-color: #fff;
     display: flex;
-}
-.textoRegistro{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.322);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: white;
-    text-align: center;   
-}
-
-.Registrarte{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    text-decoration: none;
-    width: 200px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    transition: 0.5s;
-    text-align: center;
-    margin-top: 25px;
-}
-
-.Registrarte:hover{
-    transform: translateY(-5px);
-    background-color: #00000069;
-    box-shadow: 2px 1px 3px 2px rgba(255, 255, 255, 0.425);
-}
-
-.tituloRegistro{
-    font-size: 50px;
-}
-
-.parrafoRegistro{
-    font-size: 25px;
-}
-
-/*==================================================================================
-                    parte 6
-====================================================================================*/
-
-.Investigadores{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.hola{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.hola h1{
-    font-size: 50px;
-}
-.hola p{
-    font-size: 20px;
-}
-
-.todosInvestigadores{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
+    justify-content: space-between;
     
 }
 
-.cardInvestigador{
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    position: relative;
-    width: 250px;
-    height: 400px;
-    margin-top: 15px;
-    border-radius: 15px;
-    box-shadow: 4px 4px 6px 4px rgba(44, 44, 44, 0.397);
-}
-.difuminado{
-    width: 100%;
-    height: 100%;
+.slider__btn{
+    width: 40px;
+    height: 40px;
+    background-color: #5D9D0B;
+    top: 50%;
+    transform: translateY(-50%);
     position: absolute;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-    background-color: rgba(255, 255, 255, 0.226);  
-    backdrop-filter: blur(5px);
-    z-index: -1;
-}
-
-.fondoInvestigadores{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -2;
-}
-
-.imgInvestigador{
-    width: 150px;
-    border-radius: 100%;
-    margin-top: 10px;
-}
-
-.datosInvestigador{
-    color: #fff;
-    overflow: hidden;
-}
-.datosInvestigador h1{
     font-size: 30px;
-}
-.datosInvestigador p{
-    font-size: 20px;
-}
-
-/*==================================================================================
-                    parte 7s
-====================================================================================*/
-
-.Comunicate{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    flex-wrap: wrap;
-    flex-direction: column;
+    font-weight: bold;
+    font-family: monospace;
     text-align: center;
-    margin-top: 50px;
-
+    border-radius: 50%;
+    cursor: pointer;
 }
-.todoComunicate{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    flex-wrap: wrap;
-    overflow: hidden;
-    width: 100%;
-    height:300px;
-    border-radius: 15px;
-    transition: 1s;
-    background: #fff;
-}
-.todoComunicate h1{
-    text-align: center;
-    font-size: 50px;
-
-}
-.todoComunicate p{
-    text-align: center;
-    font-size: 25px;
+.slider__btn--left{
+    left: 10px;
 }
 
-.todoComunicate:hover{
-    transform: scale(1.05);
-    transform: translateY(-10px);
-    box-shadow: 4px 4px 6px 4px rgba(44, 44, 44, 0.397);
-    color: rgb(255, 255, 255);
-    background:rgb(189, 189, 189) ;
-}
-
-
-
-.btnContactarnos{
-    text-decoration: none;
-    width: 160px;
-    height: 35px;
-    background-color:none ;
-    transition: .5s;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 17px;
-    color: black;
-    margin-top: 15px;
-}
-
-.btnContactarnos:hover{
-    transform: translateY(-4px);
-    background-color:  rgba(163, 163, 163, 0.418) ;
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.425);
+.slider__btn--rigth{
+    right: 10px;
 }

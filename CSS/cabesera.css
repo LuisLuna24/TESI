@@ -97,6 +97,7 @@ body{
     padding: 0 15px;
     cursor: pointer;
     display: none;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(112deg) brightness(108%) contrast(102%);
 }
 
 .menu__img{

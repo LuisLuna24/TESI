@@ -15,259 +15,150 @@
 ==================================================================================================-->
     <header>
         <?php require('Global/cabesera.php'); ?> 
-        <div  class="tituloCCAI">
-            <div id="divTitulo" class="divTitulo">
-                <h1>CCAI TESI</h1>
-                <label>Bienvenido al <br> Centro de Cooperación Academia Industria <br> del <br> Tecnologico de Estudios Superiores de Ixtapaluca </label>
-            </div>
+        <div  class="Titulo_Tesi">
+            <h1>Tecnológico de Estudios Superiores de Ixtapaluca</h1>
+            <label>Bienvenido al <br>PROYECTO DE CENTRO DE COOPERACIÓN ACADÉMICA – INDUSTRIA(CCAI) del <br> Tecnologico de Estudios Superiores de Ixtapaluca </label>
         </div>
     </header>
 
 <!--===============================================================================================
                                             Parte 1
 ==================================================================================================-->
-    <section id="targetasServicios" class="targetasServicios">
-        <div class="tituloServicios">
-            <h1>Nuestros Servicios</h1>
-        </div>
-
-        <nav class="imagenesEquipo" id="imagenesEquipo">
-            <div class="card">
-                <div class="front">
-                    <img class="imgFront" src="img/sistemas.jpg" alt="IMG1">
-                    <div class="contendoFront">
-                        <h1 class="tituloCard">Titulo proyecto</h1>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="contenidoBack">
-                        <h1 class="titloBack">Titulo</h1>
-                        <p>Descripción</p>
-                    </div>
-                </div>
+<section id="Instalaciones" class="Instalaciones">
+        <h1 class="Instalaciones_Descripcion">Centro de Cooperación Academia-Industria: Centro de Innovación y Desarrollo en Tecnologías Digitales basados en la Industria 4.0</h1>
+        <nav>
+            <div class="Instalaciones_Titulo">
+                <h1>¿Quienes Somos?</h1>
+                <p>El Tecnológico de Estudios Superiores de Ixtapaluca (TESI), tiene el compromiso de la mejora continua, fortaleciendo el vínculo entre docentes, estudiantes, industria privada y sector público de la región, mediante consultorías, desarrollo de proyectos que cuentan con investigación aplicada en el área de Gestión Clínica Hospitalaria, Tecnologías de la Información y Comunicaciones, así como el Diseño Arquitectónico, la construcción y desarrollo urbano, todo acoplado a la Industria 4.0; con la finalidad de promover el desarrollo tecnológico y colaborativo entre las PyMEs y el TESI.</p>
+                <a  href="Quienes_Somos.php" class="cta"><span>Leer Mas</span><svg viewBox="0 0 13 10" height="10px" width="15px"><path d="M1,5 L11,5"></path><polyline points="8 1 12 5 8 9"></polyline></svg></a>
             </div>
-
-            <div class="card">
-                <div class="front">
-                    <img class="imgFront" src="img/arquitectura.jpg" alt="IMG2">
-                    <div class="contendoFront">
-                        <h1 class="tituloCard">Titulo proyecto</h1>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="contenidoBack">
-                        <h1 class="titloBack">Titulo</h1>
-                        <p>Descripción</p>
-                    </div>
-                </div>
+            <div class="Slayer">
+                <ul>
+                    <li>
+                        <img src="img/TesiFondo.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Sistemsa1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/arquitectura1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="img/Biomedica1.jpg" alt="">
+                    </li>
+                </ul>
             </div>
-
-            <div class="card">
-                <div class="front">
-                    <img class="imgFront" src="img/electronica.jpg" alt="IMG3">
-                    <div class="contendoFront">
-                        <h1 class="tituloCard">Titulo proyecto</h1>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="contenidoBack">
-                        <h1 class="titloBack">Titulo</h1>
-                        <p>Descripción</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="front">
-                    <img class="imgFront" src="img/biomedica.jpg" alt="IMG4">
-                    <div class="contendoFront">
-                        <h1 class="tituloCard">Titulo proyecto</h1>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="contenidoBack">
-                        <h1 class="titloBack">Titulo</h1>
-                    </div>
-                </div>
-            </div>
-            
         </nav>
     </section>
 
 <!--===============================================================================================
                                             Parte 2
 ==================================================================================================-->
-    <section id="Instalaciones" class="Instalaciones">
-        <nav>
-            <div class=instalacionsTitulo>
-                <h1>Nuestras Intalaciones</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate iusto beatae voluptatibus exercitationem quae, doloribus voluptatem impedit facilis ex ratione rerum numquam vitae facere magnam eius quaerat expedita adipisci alias?</p>
+    <section id="Servicios" class="Servicios">
+        <nav class="Servicios_Titulo">
+            <h1>Áreas de interes:</h1>
+            <div class="linea"></div>
+            <p>Como parte de los requerimientos tecnológicos y en función de un análisis de viabilidad técnica de un área de TESI y con la finalidad de identificar las características y alcances de la asesoría o consultoría a ofrecer, se ha identificado áreas o líneas principales de interés, y a partir de estas sus respectivas líneas:</p>
+        </nav>
+        <nav class="Servicios_Targetas">
+            <div class="Servicio_Card">
+              <img src="img/img1.jpg" alt=""> 
+              <h1>Area Industria 4.0</h1>
+              <p>•	Inteligencia artificial. <br>
+                •	Desarrollo de software.<br>
+                •	Base de datos.<br>
+                •	Automatización y control.<br>
+                •	Ciberseguridad.<br>
+                •	Internet de las cosas.<br>
+                •	Computo forense.<br>
+                •	Redes.<br>
+                •	Realidad virtual aumentada.<br>
+                </p> 
             </div>
-            <div class="Slayer">
-                <ul>
-                    <li>
-                        <img src="img/instalacion-1.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="img/instalacion-2.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="img/instalacion-3.jpg" alt="">
-                    </li>
-                    <li>
-                        <img src="img/instalacion-4.jpg" alt="">
-                    </li>
-                </ul>
+            <div class="Servicio_Card">
+                <img src="img/img4.jpg" alt=""> 
+                <h1>Gestión clínica hospitalaria </h1>
+                <p>•	Mantenimiento correctivo y preventivo de equipos y dispositivos médicos. <br>
+                •	Dispositivos de prueba para equipos médicos.<br>
+                •	Diseño de manuales (Manuales Normalizados de Operación para empresas, hospitales públicos, hospitales privados y clínicas).<br>
+                •	Diseño de sistemas de gestión digital para documentación clínica.                
+                 </p> 
             </div>
+            <div class="Servicio_Card">
+                <img src="img/img6.jpg" alt=""> 
+                <h1>Arquitectura 4.0</h1>
+                <p>•	Pruebas de concreto. <br>
+                    •	Diseño de planos. <br>
+                    •	Presupuesto de construcción. <br>                    
+                </p> 
+            </div>
+
         </nav>
         
     </section>
-
 <!--===============================================================================================
                                             Parte 3
 ==================================================================================================-->
-    <section id="Explorar" class="Explorar">
-        <h1 class="explorarWeb">Explorar Wab</h1>
-        <nav class="todasTargetas">
-            <div class="explorarTargetas">
+<section id="Explorar" class="Explorar">
+        <h1 class="Explorar_Web">Explorar Web</h1>
+        <nav class="Explorar_Targetas">
+            <div class="Explorar_Card">
                 <img src="img/services.svg" alt="">
-                <div class="contenidoTargetas">
+                <div class="Explorar_Card_Contenido">
                     <h1>Nuestros<br>Servicios</h1>
                     <p>Informacion a qui</p>
                 </div>
-                <a class="leerMas" href="servicios.php">Leer Más</a>
+                <a class="Explorar_Card_Boton" href="servicios.php">Leer Más</a>
             </div>
-            <div class="explorarTargetas">
+            <div class="Explorar_Card">
                 <img src="img/acerca-de.svg" alt="">
-                <div class="contenidoTargetas">
+                <div class="Explorar_Card_Contenido">
                     <h1>¿Quienes<br>somos?</h1>
                     <p>Informacion a qui</p>
                 </div>
-                <a class="leerMas" href="servicios.php">Leer Más</a>
+                <a class="Explorar_Card_Boton" href="Quienes_Somos.php">Leer Más</a>
             </div>
-            <div class="explorarTargetas">
+            <div class="Explorar_Card">
                 <img src="img/investigacion-y-desarrollo.svg" alt="">
-                <div class="contenidoTargetas">
+                <div class="Explorar_Card_Contenido">
                     <h1>Nuestra<br>Investigacion</h1>
                     <p>Informacion a qui</p>
                 </div>
-                <a class="leerMas" href="servicios.php">Leer Más</a>
+                <a class="Explorar_Card_Boton" href="servicios.php">Leer Más</a>
             </div>
-            <div class="explorarTargetas">
+            <div class="Explorar_Card">
                 <img src="img/privacidad.svg" alt="">
-                <div class="contenidoTargetas">
+                <div class="Explorar_Card_Contenido">
                     <h1>Privacidad</h1>
                     <p>Informacion a qui</p>
                 </div>
-                <a class="leerMas" href="servicios.php">Leer Más</a>
+                <a class="Explorar_Card_Boton" href="servicios.php">Leer Más</a>
             </div>
         </nav>
         
     </section>
-
 <!--===============================================================================================
                                             Parte 4
 ==================================================================================================-->
-    <section id="Proyectos" class="Proyectos">
-        <h1 class="tituloProyectios">Nuestros Proyectos</h1>
-        <div class="todosProyectos">
-            <nav class="imgProyectos">
-                <div class=imagenes>
-                    <a href="servicios.php"><img src="img/img1.jpg" alt=""></a>
-                </div>
-                <div class=imagenes>
-                    <a href="servicios.php"><img src="img/img6.jpg" alt=""></a>
-                </div>
-                <div class=imagenes>
-                    <a href="servicios.php"><img src="img/img2.jpg" alt=""></a>
-                </div>
-            </nav>
-            <nav class="imgProyectos">
-                <div class=imagenes>
-                    <a href="servicios.php"><img src="img/img5.jpg" alt=""></a>
-                </div>
-                <div class=imagenes>
-                    <a href="servicios.php"><img src="img/img3.jpg" alt=""></a>
-                </div>
-                <div class=imagenes>
-                    <a href="servicios.php"><img src="img/img4.jpg" alt=""></a>
-                </div>
-            </nav>
+    <section class="Impacto" id="Impacto">
+        <div class="Impacto_Contenedor">
+            <div class="Impacto_Contenido">
+                <h1 class="Impacto_Titulo">Areas de impacto</h1>
+                <p class="ImpactoContenido">Se considera que, de acuerdo con la zona de influencia del TESI los municipios en los cuales impactara la creación y puesta en marcha del Centro CAI sin: Ixtapaluca, Chalco, Valle de Chalco, Chimalhuacán, La Paz, Chicoloapan, algunas empresas de Nezahualcóyotl, Texcoco y Ciudad de México</p>
+            </div>
         </div>
     </section>
 <!--===============================================================================================
                                             Parte 5
 ==================================================================================================-->
-    <section id="Registro" class="Registro">
-        <img src="img/instalacion-4.jpg" alt="">
-            <div class="textoRegistro">
-                <h1 class="tituloRegistro">Registrate</h1>
-                <label class="parrafoRegistro" for=""><br>estancia de investigación, residencias y/o servicio social <br> CCAI TESI</label>
-                <a class="Registrarte" href="">Registrate</a>
-            </div>
-    </section>
+    <Section class="Vinculacion">
+        <nav class="Vinculacion_Titulo">
+            
+        </nav>
+        <nav class="Vinculacion_Contenedor">
 
-<!--===============================================================================================
-                                            Parte 6
-==================================================================================================-->
-<section id="Investigadores" class="Investigadores">
-        <nav class="hola">
-            <h1>Investigadores</h1>
-            <p>Descripcion de investigadores</p>
-            <nav class="todosInvestigadores">
-                
-                <div class="cardInvestigador">
-                    <div class="datosInvestigador">
-                        <img class="imgInvestigador" src="img/client-2.jpg" alt="">
-                        <h1>Nombre</h1>
-                        <p>Puesto</p>
-                    </div>
-                    <img class="fondoInvestigadores" src="img/sistemas.jpg" alt="">
-                    <div class=difuminado></div>
-                </div>
-                <div class="cardInvestigador">
-                    <div class="datosInvestigador">
-                        <img class="imgInvestigador" src="img/client-2.jpg" alt="">
-                        <h1>Nombre</h1>
-                        <p>Puesto</p>
-                    </div>
-                    <img class="fondoInvestigadores" src="img/sistemas.jpg" alt="">
-                    <div class=difuminado></div>
-                </div>
-                <div class="cardInvestigador">
-                    <div class="datosInvestigador">
-                        <img class="imgInvestigador" src="img/client-2.jpg" alt="">
-                        <h1>Nombre</h1>
-                        <p>Puesto</p>
-                    </div>
-                    <img class="fondoInvestigadores" src="img/sistemas.jpg" alt="">
-                    <div class=difuminado></div>
-                </div>
-                <div class="cardInvestigador">
-                    <div class="datosInvestigador">
-                        <img class="imgInvestigador" src="img/client-2.jpg" alt="">
-                        <h1>Nombre</h1>
-                        <p>Puesto</p>
-                    </div>
-                    <img class="fondoInvestigadores" src="img/sistemas.jpg" alt="">
-                    <div class=difuminado></div>
-                </div>
-            </nav>
         </nav>
-        
-    </section>
-<!--===============================================================================================
-                                            Parte 7
-==================================================================================================-->
-    <section id="Comunicate" class="Comunicate">
-        <nav class="todoComunicate">
-            <h1>Contactanos</h1>
-            <p>Descripcion</p>
-            <div>
-                <a class="btnContactarnos"href="">Contactanos</a>
-            </div>
-        </nav>
-    </section>
+    </Section>
 
 <!--===============================================================================================
                                             Parte final
