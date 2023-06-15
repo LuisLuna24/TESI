@@ -176,6 +176,10 @@ header{
     background: none;
     cursor: pointer;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
    }
    
    .cta:before {
@@ -297,17 +301,19 @@ header{
 .Contacto{
     width: 100%;
     min-height: 400px;
-    background: #000000 url("../img/TesiFondo.jpg") no-repeat;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.315)), url("../img/TesiFondo.jpg"); 
     background-size: 100% 100%;
     padding: 5%;
     margin-top: 30px;
     position: relative;
     display:flex;
     align-items: center;
+    
 }
 .Contacto_Contenedor{
     padding: 10px;
-    flex: 0 0 250px;
+    width: 500px;
+    height: 350px;
     background: rgba(255, 255, 255, 0.61);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -316,15 +322,27 @@ header{
     border: 1px solid rgba(255, 255, 255, 1);
     text-align: center;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Contacto_Titulo{
     font-size: 40px;
 }
 
+.Contacto_Texto{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
 @media(max-width:700px){
     .Contacto_Titulo{
         font-size: 30px;
+    }
+    .Contacto{
+        justify-content: center;
+        align-items: center;
     }
 }
 
