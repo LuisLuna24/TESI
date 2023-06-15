@@ -100,15 +100,14 @@
 <!--===============================================================================================
                                             Parte 3
 ==================================================================================================-->
-    <Section class="Contacto" id="Contacto_Index">
-        <nav class="Contacto_Contenedor">
-            <div class="Contacto_Texto">
-                <h1 class="Contacto_Titulo">Contactanos</h1>
-                <p class="Contacto_Texto">Sí, te interesa saber más sobre nuestros servicios</p>
-                <a href="contacto.php" class="cta"><span>Leer Mas</span><svg viewBox="0 0 13 10" height="10px" width="15px"><path d="M1,5 L11,5"></path><polyline points="8 1 12 5 8 9"></polyline></svg></a>
+    <section class="Impacto" id="Impacto">
+        <div class="Impacto_Contenedor">
+            <div class="Impacto_Contenido">
+                <h1 class="Impacto_Titulo">Areas de impacto</h1>
+                <p class="ImpactoContenido">Se considera que, de acuerdo con la zona de influencia del TESI los municipios en los cuales impactara la creación y puesta en marcha del Centro CAI sin: Ixtapaluca, Chalco, Valle de Chalco, Chimalhuacán, La Paz, Chicoloapan, algunas empresas de Nezahualcóyotl, Texcoco y Ciudad de México</p>
             </div>
-        </nav>    
-    </Section>
+        </div>
+    </section>
 <!--===============================================================================================
                                             Parte 4
 ==================================================================================================-->
@@ -153,14 +152,16 @@
 <!--===============================================================================================
                                             Parte 5
 ==================================================================================================-->
-    <section class="Impacto" id="Impacto">
-        <div class="Impacto_Contenedor">
-            <div class="Impacto_Contenido">
-                <h1 class="Impacto_Titulo">Areas de impacto</h1>
-                <p class="ImpactoContenido">Se considera que, de acuerdo con la zona de influencia del TESI los municipios en los cuales impactara la creación y puesta en marcha del Centro CAI sin: Ixtapaluca, Chalco, Valle de Chalco, Chimalhuacán, La Paz, Chicoloapan, algunas empresas de Nezahualcóyotl, Texcoco y Ciudad de México</p>
+    
+    <Section class="Contacto" id="Contacto_Index">
+        <nav class="Contacto_Contenedor">
+            <div class="Contacto_Texto">
+                <h1 class="Contacto_Titulo">Registrate</h1>
+                <p class="Contacto_Texto">Registra tu residencias y/o servicio social</p>
+                <a href="registro.php" class="cta"><span>Registrarce</span><svg viewBox="0 0 13 10" height="10px" width="15px"><path d="M1,5 L11,5"></path><polyline points="8 1 12 5 8 9"></polyline></svg></a>
             </div>
-        </div>
-    </section>
+        </nav>    
+    </Section>
 
 
 <!--===============================================================================================
