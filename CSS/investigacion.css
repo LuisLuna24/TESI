@@ -33,6 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   
   .tituloCCAI .divTitulo h1{
@@ -45,3 +46,151 @@
     font-size: 50px;
     color: #fff;
   }
+
+  @media(max-width:700px){
+    .tituloCCAI .divTitulo h1{
+      font-size: 40px;
+    }
+    .tituloCCAI .divTitulo label{
+      font-size: 20px;
+      color: #fff;
+    }
+}
+  /*======================================Parte 1=============================================*/
+
+  .Antecedentes_Contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .Antecedentes_Titulo{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Antecedentes_Titulo h1{
+    font-size: 60px;
+    text-align: center;
+  }
+
+.Antecedentes_Titulo p{
+  font-size: 25px;
+}
+
+  .Antecedentes_Slayer{
+    width: 500px;
+    height: 450px;
+    position: relative;
+    background-color: #5D9D0B;
+    border-radius: 15px;
+  }
+
+  @media(max-width:700px){
+    .Antecedentes_Slayer{
+      min-width: 270px;
+    }
+    .Antecedentes_Titulo h1{
+      font-size: 30px;
+    }
+    .Antecedentes_Titulo p{
+      font-size: 15px;
+    }
+    .Antecedentes_Titulo{
+      width: 100%;
+    }
+}
+
+  .Antecedentes_Slayer .Antecedentes_Slayer_Imagenes{
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Antecedentes_Slayer .Antecedentes_Slayer_Imagenes .img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .img h1{
+    font-size: 30px;
+  }
+  .img p{
+    font-size: 20px;
+  }
+
+  .Antecedentes_Slayer .botones{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+  }
+
+  .Antecedentes_Slayer .botones a{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(22, 22, 22, 0.39);
+    font-size: 20px;
+    user-select: none;
+  }
+
+.Antecedentes_Slayer .botones .prev{
+  border-radius: 0 5px 5px 0;
+}
+
+.Antecedentes_Slayer .botones .next{
+  border-radius: 5px 0 0 5px ;
+}
+
+.dots{
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+  background: #00000048;
+  padding: 5px 10px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.dot{
+  cursor:pointer ;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 2px;
+  transition: 0.5s;
+}
+
+.dot:hover{
+  background-color: chartreuse;
+}
