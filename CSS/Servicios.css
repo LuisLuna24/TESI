@@ -19,7 +19,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #000000 url("../img/tesi-pg.jpg") no-repeat;
+    background: #000000 url("../img/TesiFondo.jpg") no-repeat;
     background-size: 100% 100%;
     z-index: -1;
     text-align: center;
@@ -46,6 +46,75 @@ header{
     color: #fff;
 }
 
+
+/*===========================================Parte 2=======================================*/
+
+.Actividades{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    padding: auto;
+}
+
+.Actividades_Titulo{
+    font-size: 60px;
+    text-align: center;
+}
+
+.Actividades_Contenedor{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Actividades_Card_Img{
+    width: 90%;
+    border-radius: 15px;
+}
+
+.Acividades_Card{
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(180, 180, 180, 0.418);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.Actividades_Card_Contenido h1{
+    text-align: center;
+}
+
+.Actividades_Card_Contenido p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+@media(max-width:700px){
+    .Actividades_Contenedor{
+        grid-template-rows: repeat(3,1fr);
+        gap: 20px;
+        grid-template-columns: 100%;
+    }
+}
+
+@media(max-width:700px){
+    .Actividades_Titulo{
+        font-size: 30px;
+    }
+}
+
+
 /*=================================parrte1======================================*/
 .Servicios{
     display: flex;
@@ -54,142 +123,107 @@ header{
     position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 30px;
+    flex-direction: column;
+    text-align: center;
 }
-
-.Servicios h1{
-    font-size: 50px;
-}
-
 
 .Servicios_Contenedor{
     width: 100%;
-    height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    text-align: start;
+    margin-top: 20px;
 } 
 
-
-.Servicios_Targetas{
-    width: 200px;
-    height: 300px;
-    transition: 1s;
-    position: relative;
-    flex-wrap: wrap;
-    margin-top: 15px;
-}
-
-.Servicios_Targetas div{
-    width: 200px;
-    height: 300px;
-}
-
-.Servicios_Targetas_Img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Anton', sans-serif;
+.Servicios-Titulo{
+    font-size: 60px;
     text-align: center;
-    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.425);
-    border-radius: 10px;
-    overflow: hidden;
-    position: absolute;
-    transition: 1s;
 }
 
-.Servicios_Targetas_Texto{
-    background: rgb(184, 255, 162);
+.Servicios_Card{
+    width: 65%;
+    min-height: 500px;
+    background-color:rgba(180, 180, 180, 0.418);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Contenido{
+    padding-left: 20px;
+}
+
+.Servicio_Contenido{
+    font-size: 25px;
+}
+
+.Card_Contenido{
+    font-size: 20px;
+}
+
+.Cards{
     display: flex;
-    position: absolute;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.425);
-    border-radius: 10px;
-    z-index: -1;
-    transition: 1s;
 }
 
-.Servicios_Targetas:hover{
-    width: 400px;
+.linea{
+    width: 80%;
+    height: 10px;
+    background-color: #58940a;
+    margin-top:20px ;
 }
-.Servicios_Targetas:hover .Servicios_Targetas_Texto{
-    transform: translateX(100%);
+
+.Imagen_Servicios{
+    border-radius:15px ;
+    width: 30%;
 }
-.Servicios_Targetas:hover .Servicios_Targetas_Img{
-    transform: scale(1.1);
+
+.Card_Titulo{
+    font-size: 35px;
+    color: #58940a;
+}
+
+
+@media(max-width:700px){
+
+    .Servicios_Card{
+        width:90% ;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .tituloCCAI .divTitulo h1{
+        font-size: 50px;
+    }
+    .tituloCCAI .divTitulo label{
+        font-size: 40px;
+    }
     
+    .Imagen_Servicios{
+        width: 95%;
+    }
+
+    .Servicios_Card{
+        width: 95%;
+    }
 }
 
-/*===========================================Parte 2=======================================*/
+@media(max-width:700px){
+    .Servicios-Titulo{
+        font-size: 30px;
+    }
 
-.Explorar{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-top: 50px;
-    padding: auto;
+    .Servicio_Contenido{
+        font-size: 20px;
+    }
 }
 
-.Explorar_Todas_Targetas{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+/*=================================parrte3======================================*/
 
-.Explorar_Targetas_Textos{
-    text-align: center;
-}
-
-.Explorar_Titulo{
-    font-size: 50px;
-}
-
-.Explorar_Targetas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 250px;
-    height: 450px;
-    text-align: center;
-    background-color: rgba(163, 163, 163, 0.418) ;
-    border-radius: 15px;
-    margin-top: 15px;
-}
-
-.Explorar_Targetas img{
-    width: 100px;
-}
-
-.Explorar_Boton{
-    text-decoration: none;
-    width: 160px;
-    height: 35px;
-    background-color:none ;
-    transition: .5s;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 17px;
-    color: black;
-    margin-top: 15px;
-}
-
-.Explorar_Boton:hover{
-    transform: translateY(-4px);
-    background-color:  rgba(163, 163, 163, 0.418) ;
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.425);
-}
