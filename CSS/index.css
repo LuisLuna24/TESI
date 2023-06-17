@@ -13,7 +13,6 @@ header{
 }
 
 .Titulo_Tesi{
-    margin-top: 70px;
     display: grid;
     position: relative;
     width: 100%;
@@ -312,6 +311,7 @@ header{
     width: 100%;
     height: 100%;
     display: flex;
+    padding: 10px;
     align-items: center;
     justify-content: end;
 }

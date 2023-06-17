@@ -7,14 +7,14 @@
 .form-registro{
    
     width: 40%;
-    min-height:700px ;
+    min-height:600px ;
     background: #11998e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #27a156, #0e6d65);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2bb961, #0e7970); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 22px;
     margin: auto;
     margin-top: 50px;
-    border-radius: 40px;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
     font-family: 'calibri';
@@ -29,21 +29,15 @@
 }
 .form-registro h4{
 font-size: 50px;
-margin-bottom: 30px;
 text-align: center;
 }
 .form-registro select option{
   color: #007991;
 }
 .controls{
-    width: 150%;
-    background: #007991;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    padding: 10px;
+    width: 100%;
+    padding: 5px;
     border-radius: 4px;
-    margin-bottom: 16px;
     border: 1px solid rgb(249, 138, 156);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;

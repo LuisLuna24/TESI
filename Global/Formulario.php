@@ -10,11 +10,9 @@
         <input class="controls" type="email" name="Correo Electronico" id="Correo Electronico" placeholder="Correo Electronico">
         <select class="controls" name="Servicios">
             <optgroup label="seleccionar servicio">
-                <option>Servicio 1</option>
-                <option>Servicio 2</option>
-                <option>Servicio 3</option>
-                <option>Servicio 4</option>
-                <option>Servicio 5</option>
+                <option>Industria 4.0</option>
+                <option>Gestion Clinica Hospitalaria</option>
+                <option>Arquitectura</option>
             </optgroup>
         </select>
         <select class="controls" name="seleccionar">

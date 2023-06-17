@@ -54,10 +54,12 @@
             </div>
         </div>
     </section>
+
 <!--===============================================================================================
                                             Parte 2
 ==================================================================================================-->
     <section class="Servicios">
+        <div class="linea"></div>
         <h1 class="Servicios-Titulo">Actividades a Realizar</h1>
         <p class="Servicio_Contenido">El centro CAI busca brindar soluciones tecnológicas y mejorar las condiciones de ejecución de procesos de las empresas y distintos sectores de la zona, con el objetivo de investigar, diseñar e innovar procesos y productos. <br> Las actividades que se pretender llevar a cabo son las siguientes:</p>
         <div class="Cards">

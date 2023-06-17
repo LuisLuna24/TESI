@@ -89,6 +89,7 @@
 
   .Antecedentes_Slayer{
     width: 500px;
+    min-width: 250px;
     height: 450px;
     position: relative;
     background-color: #5D9D0B;
@@ -193,4 +194,82 @@
 
 .dot:hover{
   background-color: chartreuse;
+}
+
+
+.linea{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+}
+
+.linea div{
+  width: 90%;
+  height: 100%;
+  background-color: #5D9D0B;
+}
+/*===================================parte 2====================================================*/
+
+.Beneficios{
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Beneficios_Titulo{
+  width: 90%;
+  margin-bottom: 15px;
+}
+.Beneficios_Titulo h1{
+  text-align: center;
+  font-size: 60px;
+}
+.Beneficios_Titulo p{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+@media(max-width:700px){
+  .Beneficios_Titulo h1{
+    font-size: 30px;
+  }
+  .Beneficios_Titulo p{
+    font-size: 15px;
+  }
+}
+
+.Beneficios_Contenedor{
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 10px;
+}
+
+.Beneficio_Contenido{
+  min-width: 250px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: #a7a7a7a2;
+  padding: 15px;
+  display: flex;
+  flex: 0 0 255px;
+  align-items: center;
+  justify-content:start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Beneficio_Contenido img{
+  width: 100%;
+  border-radius: 15px;
 }

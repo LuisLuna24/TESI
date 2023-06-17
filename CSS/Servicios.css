@@ -47,7 +47,7 @@ header{
 }
 
 
-/*===========================================Parte 2=======================================*/
+/*===========================================Parte 1=======================================*/
 
 .Actividades{
     width: 100%;
@@ -69,20 +69,20 @@ header{
     width: 90%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap:20px;
+    gap:50px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .Actividades_Card_Img{
-    width: 90%;
+    width: 500px;
     border-radius: 15px;
 }
 
 .Acividades_Card{
     width: 100%;
-    min-height: 650px;
+    min-height: 550px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -97,7 +97,7 @@ header{
 
 .Actividades_Card_Contenido p{
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 @media(max-width:700px){
@@ -115,7 +115,10 @@ header{
 }
 
 
-/*=================================parrte1======================================*/
+
+
+
+/*=================================parrte 2======================================*/
 .Servicios{
     display: flex;
     flex-wrap: wrap;
@@ -159,11 +162,12 @@ header{
 }
 
 .Servicio_Contenido{
-    font-size: 25px;
+    font-size: 22px;
+    padding: 20px;
 }
 
 .Card_Contenido{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .Cards{

@@ -136,7 +136,7 @@
                     <h1>Nuestra<br>Investigacion</h1>
                     <p>Informacion a qui</p>
                 </div>
-                <a class="Explorar_Card_Boton" href="servicios.php">Leer Más</a>
+                <a class="Explorar_Card_Boton" href="investigacion.php">Leer Más</a>
             </div>
             <div class="Explorar_Card">
                 <img src="img/privacidad.svg" alt="">
@@ -144,7 +144,7 @@
                     <h1>Privacidad</h1>
                     <p>Informacion a qui</p>
                 </div>
-                <a class="Explorar_Card_Boton" href="servicios.php">Leer Más</a>
+                <a class="Explorar_Card_Boton" href="privacidad.php">Leer Más</a>
             </div>
         </nav>
         
