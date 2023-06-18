@@ -12,7 +12,7 @@
                                             Tituo
 ==================================================================================================-->
     <header>
-        <?php require('Global/cabesera.php'); ?> 
+        <?php require('Global/cabesera.php'); ?>
         <div  class="tituloCCAI">
             <div id="divTitulo" class="divTitulo">
                 <h1>Servicios</h1>
@@ -85,6 +85,7 @@
             <div class="linea"></div>
 
             <nav class="Servicios_Contenedor">
+                <img class="Imagen_Servicios" src="img/img4.jpg" alt="">
                 <div class="Servicios_Card">
                     <div class="Contenido">
                         <h1 class="Card_Titulo">Arqitectura 4.0</h1>
@@ -99,7 +100,7 @@
                         <p class="Card_Contenido Contenido3"> Identificar tipo de suelo, capacidad de carga de suelo, limite plástico y elástico de este. <br>1.	Meseta de concreto para colocación de horno. <br>2.	Instalación eléctrica especial a 220 volts. <br>3.	Meseta para tamiz.  <br>4.	Meseta para Basculas de precisión. <br>5.	Tarja de lavado.  <br>6.	3 mesas de trabajo. </p>
                     </div>
                 </div>
-                <img class="Imagen_Servicios" src="img/img4.jpg" alt="">
+                
             </nav>
 
             <div class="linea"></div>
@@ -112,12 +113,12 @@
                         <p class="Card_Contenido Contenido1">Actividades que se pretenden realizar: <br>•	Trabajar con actividades de Gestión clínica y regulación sanitaria actualizada con las empresas, hospitales públicos y privados </br>•	Realizar protocolo de revisión de mantenimiento preventivo y correctivo para equipos y dispositivos médicos.</p>
                     </div>
                     <div class="Contenido">
-                        <h1 >Algunas de las empresas que se trabaja:</h1>
+                        <h1>Algunas de las empresas que se trabaja:</h1>
                         <p class="Card_Contenido Contenido2">•	Capacitación del personal usuario de los equipos y dispositivos médicos, para minimizar fallas y tener un mejor funcionamiento. <br>•	Revisión, creación y actualización de manuales de procedimientos de acuerdo con la normatividad vigente. </p>
                     </div>
                     <div>
-                        <h1 class="Contenedor_Titulo">Con estas empresas se pretende trabajar:</h1>
-                        <p class="Card_Contenido Contenido3">•	Seguir manteniendo la colaboración con las empresas:  <br>•	Servicios de ingeniería BEIKHEL S.A. de C.V. <br>•	Human Corporis S.A. de C.V. <br>•	Assesory and Logistic on aplicated radiation assrane S.A. de C.V. <br>•	Hospital de Alta Especialidad de Ixtapaluca (HRAEI). <br>•	ISSSTE Tláhuac Heriberto Castillo 216. <br>•	Hospital General La Raza. </p>
+                        <h1>Con estas empresas se pretende trabajar:</h1>
+                        <p class="Card_Contenido Contenido1">•	Seguir manteniendo la colaboración con las empresas:  <br>•	Servicios de ingeniería BEIKHEL S.A. de C.V. <br>•	Human Corporis S.A. de C.V. <br>•	Assesory and Logistic on aplicated radiation assrane S.A. de C.V. <br>•	Hospital de Alta Especialidad de Ixtapaluca (HRAEI). <br>•	ISSSTE Tláhuac Heriberto Castillo 216. <br>•	Hospital General La Raza. </p>
                     </div>
                 </div>
             </nav>
