@@ -123,6 +123,7 @@
                 </div>
             </nav>
 
+            <div class="linea"></div>
         </div>
         
     </section>

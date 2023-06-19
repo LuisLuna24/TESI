@@ -45,3 +45,57 @@
     font-size: 50px;
     color: #fff;
   }
+
+  @media(max-width:700px){
+    .tituloCCAI .divTitulo h1{
+      font-size: 50px;
+    }
+    .tituloCCAI .divTitulo label{
+      font-size: 20px;
+    }
+}
+  /*============================pate 1==============================*/
+  .Registro_Presentacion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Registro_Presentacion_Titulo{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Registro_Presentacion_Titulo h1{
+    font-size: 60px;
+  }
+
+  .Registro_Presentacion_Titulo p{
+    font-size: 25px;
+  }
+
+  .Registro_Presentacion_Contenedor{
+    grid-template-columns: repeat(3,1fr);
+    display:grid;
+    place-content: center;
+    gap: 20px;
+  }
+  @media(max-width:700px){
+    .Registro_Presentacion_Contenedor{
+      grid-template-columns:100%;
+      grid-template-rows: auto;
+    }
+    .Registro_Presentacion_Titulo h1{
+      font-size: 30px;
+    }
+    .Registro_Presentacion_Titulo p{
+      font-size: 20px;
+    }
+}

@@ -50,10 +50,15 @@ header{
     flex-direction: row;
     margin-top: 50px;
     width: 100%;
-    
 }
 .Instalaciones_Descripcion{
     text-align: center;
+    
+}
+
+.Descripcion_TIT{
+    width: 100%;
+    padding: 20px;
 }
 
 .Instalaciones nav{

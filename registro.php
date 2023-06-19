@@ -19,6 +19,23 @@
             </div>
         </div>
     </header>
+<!--===============================================================================================
+                                            Parte 1
+==================================================================================================-->
+    <section class="Registro_Presentacion">
+        <nav class="Registro_Presentacion_Titulo">
+            <h1>¡Registrate!</h1>
+            <p>Registra tu residencia, servicio social o estancia de investigacion</p>
+        </nav>
+        <nav class="Registro_Presentacion_Contenedor">
+            <img src="img/img1.jpg" alt="">
+            <img src="img/img3.jpg" alt="">
+            <img src="img/img6.jpg" alt="">
+            <img src="img/img2.jpg" alt="">
+            <img src="img/img5.jpg" alt="">
+            <img src="img/img4.jpg" alt="">
+        </nav>
+    </section>
 
 <!--===============================================================================================
                                             Parte final

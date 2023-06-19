@@ -14,7 +14,7 @@
         <?php require('Global/cabesera.php'); ?> 
         <div  class="tituloCCAI">
             <div id="divTitulo" class="divTitulo">
-                <h1>Comtactanos</h1>
+                <h1>Contactanos</h1>
                 <label>Bienvenido</label>
             </div>
         </div>

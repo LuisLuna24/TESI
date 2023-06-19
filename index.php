@@ -24,8 +24,10 @@
 <!--===============================================================================================
                                             Parte 1
 ==================================================================================================-->
-<section id="Instalaciones" class="Instalaciones">
-        <h1 class="Instalaciones_Descripcion">Centro de Cooperación Academia-Industria: Centro de Innovación y Desarrollo en Tecnologías Digitales basados en la Industria 4.0</h1>
+    <section id="Instalaciones" class="Instalaciones">
+        <div class="Descripcion_TIT">
+            <h1 class="Instalaciones_Descripcion">Centro de Cooperación Academia-Industria: Centro de Innovación y Desarrollo en Tecnologías Digitales basados en la Industria 4.0</h1>
+        </div>
         <nav>
             <div class="Instalaciones_Titulo">
                 <h1>¿Quienes Somos?</h1>

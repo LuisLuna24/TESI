@@ -14,13 +14,47 @@
         <?php require('Global/cabesera.php'); ?> 
         <div  class="tituloCCAI">
             <div id="divTitulo" class="divTitulo">
-                <h1>Investigacon</h1>
+                <h1>Investigacion</h1>
                 <label>Bienvenido</label>
             </div>
         </div>
     </header>
 <!--===============================================================================================
                                             Parte 1
+==================================================================================================-->
+    <section>
+
+    </section>
+   
+<!--===============================================================================================
+                                            Parte 2
+==================================================================================================-->
+    <secttion class="Beneficios">
+        <nav class="Beneficios_Titulo">
+        <h1>PROPÓSITO</h1>
+        <p>Fortalecer a las Unidades Económicas de la región principalmente pequeñas y medianas empresas, favoreciendo la competitividad y productividad, mediante la investigación y desarrollo</p>
+        </nav>
+        <nav class="Beneficios_Contenedor">
+            <div class="Beneficio_Contenido">
+                <img src="img/img1.jpg" alt="">
+                <p>•	Desarrollo del emprendimiento estudiantil. <br>•	Espacio para una formación integral y de calidad. <br>•	Consultorías especializadas en tecnologías 4.0. <br>•	Generación de recursos financieros para la institución.</p>
+                
+            </div>
+            <div class="Beneficio_Contenido">
+                <img src="img/img1.jpg" alt="">
+                <p>•	Acreditaciones y reacreditaciones; en infraestructura para los proyectos <br>•	Promover el servicio de investigación. <br>•	Vender servicio de investigación para mejora de las empresas. <br> •	Promover enseñanza a los alumnos para el desarrollo profesional.</p>
+                
+            </div>
+            <div class="Beneficio_Contenido">
+                <img src="img/img1.jpg" alt="">
+                <p>•	Proyectos multidisciplinarios para las carreras y posgrado. <br>•	Proyectos de titulación como son las Tesis. <br>•	Residencias profesionales. <br>•	Realización de prototipos para las diferentes expos y ferias de innovación y tecnología</p>
+                
+            </div>
+        </nav>
+    </secttion>
+    <div class="linea"><div></div></div>
+<!--===============================================================================================
+                                            Parte 3
 ==================================================================================================-->
     <section class="Antecedentes">
         <nav class="Antecedentes_Contenedor">
@@ -127,34 +161,6 @@
             </div>
         </nav>
     </section>
-    
-    <div class="linea"><div></div></div>
-<!--===============================================================================================
-                                            Parte 2 
-==================================================================================================-->
-    <secttion class="Beneficios">
-        <nav class="Beneficios_Titulo">
-        <h1>BENEFICIOS</h1>
-        <p>Fortalecer a las Unidades Económicas de la región principalmente pequeñas y medianas empresas, favoreciendo la competitividad y productividad, mediante la investigación y desarrollo</p>
-        </nav>
-        <nav class="Beneficios_Contenedor">
-            <div class="Beneficio_Contenido">
-                <img src="img/img1.jpg" alt="">
-                <p>•	Desarrollo del emprendimiento estudiantil. <br>•	Espacio para una formación integral y de calidad. <br>•	Consultorías especializadas en tecnologías 4.0. <br>•	Generación de recursos financieros para la institución.</p>
-                
-            </div>
-            <div class="Beneficio_Contenido">
-                <img src="img/img1.jpg" alt="">
-                <p>•	Acreditaciones y reacreditaciones; en infraestructura para los proyectos <br>•	Promover el servicio de investigación. <br>•	Vender servicio de investigación para mejora de las empresas. <br> •	Promover enseñanza a los alumnos para el desarrollo profesional.</p>
-                
-            </div>
-            <div class="Beneficio_Contenido">
-                <img src="img/img1.jpg" alt="">
-                <p>•	Proyectos multidisciplinarios para las carreras y posgrado. <br>•	Proyectos de titulación como son las Tesis. <br>•	Residencias profesionales. <br>•	Realización de prototipos para las diferentes expos y ferias de innovación y tecnología</p>
-                
-            </div>
-        </nav>
-    </secttion>
 <!--===============================================================================================
                                             Parte final
 ==================================================================================================-->
