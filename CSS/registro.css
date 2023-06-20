@@ -99,3 +99,19 @@
       font-size: 20px;
     }
 }
+  /*============================pate 1==============================*/
+
+  .Registro_Contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    min-width:230px ;
+    max-width: 80%
+  }
+
+  .Registro_text{
+    width:80%;
+    height: 25px;
+  }
+
+  

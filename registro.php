@@ -36,6 +36,38 @@
             <img src="img/img4.jpg" alt="">
         </nav>
     </section>
+<!--===============================================================================================
+                                            Parte 1
+==================================================================================================-->
+    <section class="Registro">
+        <nav class="Registro_TItulo">
+
+        </nav>
+        <nav class="Registro_Contenedor">
+            <label class="Registro_Label">Nombre:</label>
+            <input type="text" class="Registro_text">
+            <label class="Registro_Label">Apellido:</label>
+            <input type="text" class="Registro_text">
+            <label class="Registro_Label">Correo</label>
+            <input type="email" class="Registro_text">
+            <label class="Registro_Label">Carrera o Divicion</label>
+            <input type="email" class="Registro_text">
+            <label class="Registro_Label">Servicio:</label>
+            <select class="Registro_text">
+                <option>Estancia Investigacion</option>
+                <option>Servicio Social</option>
+                <option>Residencia Profecional</option>
+            </select>
+            <label class="Registro_Label">Interno o Extero</label>
+            <select class="Registro_text">
+                <option>Comunidad TESI</option>
+                <option>Externo</option>
+            </select>
+            <label class="Registro_Label">Motivo</label>
+            <textarea cols="30" rows="10" class="Registro_text"></textarea>
+        </nav>
+
+    </section>
 
 <!--===============================================================================================
                                             Parte final
