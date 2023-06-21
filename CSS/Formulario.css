@@ -53,6 +53,33 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 20px;
 }
 
+.controls_Area{
+  width: 100%;
+  height: 200px;
+  background: #007991;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  resize: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(249, 138, 156);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  
+  }
+
+  .red-border {
+    border: 2px solid red;
+  }
+
+  .invalido{
+    color: red;
+    opacity: 0;
+  }
+
+  
+
 .form-registro p{
 height: 40px;
 text-align: center;
@@ -93,6 +120,7 @@ border: 3px solid #FEC195;
 border-radius: 8px;
 box-shadow: 0 0 0 #fec1958c;
 transition: all .3s ease-in-out;
+margin-top: 20px;
 }
 
 .star-1 {
