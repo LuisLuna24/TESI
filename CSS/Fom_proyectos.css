@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ 
+
+  .Form_Registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .Form_Registro_Contenedor{
+    flex: 1 0 0 250px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccacad7;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding:30px
+  }
+  
+
+  
+  .Form_Registro_Titulo img{
+    width: 100%;
+  }
+  
+
+  .Form_Registro_Preguntas{
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Registros_Label{
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .Registro_Texto{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    box-decoration-break: none;
+    outline: none;
+    border-bottom: 4px solid rgba(155, 155, 155, 0.89);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .Registro_Area{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: none;
+    background-color: transparent;
+    box-decoration-break: none;
+    outline: none;
+    border-bottom: 4px solid rgba(155, 155, 155, 0.89);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+
+
+.Form_Botones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Check{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.boton_enviar{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #5D9D0B;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.boton_enviar:hover{
+    border: 5px solid #5D9D0B;
+    background-color: rgba(0, 0, 0, 0);
+    color:#5D9D0B;
+}
+
+
+.Form_Registro_Titulo{
+    width: 30%;
+    height:500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #5D9D0B;
+    border-radius: 20px;
+  }
+
+.Form_Registro_Titulo .Form_Titulo_h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.Contenedor_Imagen{
+    width: 100%; /* Ajustar el ancho del contenedor según tus necesidades */
+    max-width: 250px;
+    height: 100%;
+    max-height: 250px;
+}
+.Contenedor_Imagen img{
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%;
+}
+
+.Redes_Sociales{
+    margin-top: 30px;
+    position: relative;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Redes_Sociales a {
+    width: 100%;
+    max-width: 50px;
+    background-color: #5D9D0B;
+    position:relative;
+}
+
+.Redes_Sociales a img{
+    width: 100%;
+}
+.youtube2{
+    transition: 0.5s;
+}
+
+.Redes_Sociales a:hover .youtube2{
+    filter: invert(30%) sepia(90%) saturate(7219%) hue-rotate(355deg) brightness(107%) contrast(122%);
+}
+
+
+
+
+@media(max-width:700px){
+    .Form_Registro_Contenedor{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Form_Registro_Titulo{
+        width: 100%;
+        height: auto;
+    }
+    .Form_Registro_Preguntas{
+        width: 100%;
+    }
+    .Form_Registro_Titulo .Form_Titulo_h1{
+        font-size: 2em;
+    }
+}
