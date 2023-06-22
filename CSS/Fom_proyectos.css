@@ -135,6 +135,13 @@
     font-size: 4em;
 }
 
+.Form_Registro_Titulo p{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
 .Contenedor_Imagen{
     width: 100%; /* Ajustar el ancho del contenedor según tus necesidades */
     max-width: 250px;
@@ -146,36 +153,136 @@
     height: 100%; 
     border-radius: 50%;
 }
+/*===========================================Imagness======00========================*/
 
 .Redes_Sociales{
-    margin-top: 30px;
-    position: relative;
-    width: 80%;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.Redes_Sociales a {
-    width: 100%;
-    max-width: 50px;
-    background-color: #5D9D0B;
-    position:relative;
+.Redes_Sociales_facebook{
+  position: relative;
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-width:50px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.Redes_Sociales_youtube{
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-width:50px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.Redes_Sociales_tesi{
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-width:50px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.Redes_Sociales a img{
-    width: 100%;
+.Redes_Sociales_facebook a img{
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: 0.5s;
 }
-.youtube2{
-    transition: 0.5s;
+.Redes_Sociales_youtube a img{
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: 0.5s;
+}
+.Redes_Sociales_tesi a img{
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: 0.5s;
 }
 
-.Redes_Sociales a:hover .youtube2{
-    filter: invert(30%) sepia(90%) saturate(7219%) hue-rotate(355deg) brightness(107%) contrast(122%);
+
+
+.contenedor_img_sociales{
+  width: 100%;
 }
 
+.titulo_facebook{
+  position: absolute;
+  opacity: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2px;
+  transition: 0.5s;
+}
+.titulo_youtube{
+  position: absolute;
+  opacity: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2px;
+  transition: 0.5s;
+}
+.titulo_tesi{
+  position: absolute;
+  opacity: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2px;
+  transition: 0.5s;
+}
+
+
+.Redes_Sociales_facebook:hover .titulo_facebook{
+  opacity: 1;
+  transform: translateY(32px);
+  color: rgb(27, 103, 245);
+  font-size: 18px;
+}
+.Redes_Sociales_facebook:hover a img{
+  background-color: rgb(27, 103, 245);
+  border: 3px solid rgb(27, 103, 245);
+  
+}
+
+.Redes_Sociales_youtube:hover .titulo_youtube{
+  opacity: 1;
+  transform: translateY(32px);
+  color: rgb(245, 27, 27);
+  font-size: 18px;
+}
+.Redes_Sociales_youtube:hover a img{
+  background-color: rgb(245, 27, 27);
+  border: 3px solid rgb(245, 27, 27);
+  
+}
+
+.Redes_Sociales_tesi:hover .titulo_tesi{
+  opacity: 1;
+  transform: translateY(32px);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.Redes_Sociales_tesi:hover a img{
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  
+}
 
 
 
