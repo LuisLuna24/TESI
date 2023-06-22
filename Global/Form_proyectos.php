@@ -4,10 +4,10 @@
 <body>
     <section class="Form_Registro">
         <nav class="Form_Registro_Contenedor">
-            <div>
+            <div class="Form_Registro_Titulo">
 
             </div>
-            <div>
+            <div class="Form_Registro_Preguntas">
                 
             </div>
         </nav>
