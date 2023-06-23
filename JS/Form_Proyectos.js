@@ -47,17 +47,10 @@ function validateInput(event) {
     }
   }
 
-const checkbox = document.getElementById('myCheckbox');
-const button = document.getElementById('myButton');
-const boton=document.getElementsByClassName("boton_enviar");
 
-checkbox.addEventListener('change', function() {
-  button.disabled = !checkbox.checked;
-  if (!checkbox.checked) {
-    boton.style.border="5px solid red";
-    
-  }
-});
+const formulario = document.getElementById("Form_Registro_Contenedor");
+
+
 
 function validarCheckbox() {
   var checkbox = document.getElementById('myCheckbox');
@@ -68,17 +61,18 @@ function validarCheckbox() {
     button.style.color="red";
     letras.style.opacity="1";
     button.disabled = true;
-  } else {
+  } 
+  else if(checkbox.checked){
     button.disabled = false;
-  }
+  } 
+  
 }
+formulario.addEventListener("submit", function(event){
+  event.preventDefault();
+})
 
 
-document.getElementById("miFormulario").addEventListener("submit", function(event) {
-    event.preventDefault(); // Evita que la página se recargue
-    
-    // Realiza las acciones de envío del formulario o procesamiento de datos aquí
-    
-    // Opcional: Restablece los campos del formulario
-    this.reset();
-  });
+
+
+
+

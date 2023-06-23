@@ -1,10 +1,10 @@
 <head>
     <link rel="stylesheet" href="CSS/Fom_proyectos.css">
-    <script src="JS/Form_Proyectos.js"></script>
+    
 </head>
 <body>
-    <section method="post" class="Form_Registro">
-        <form action="" method="post" class="Form_Registro_Contenedor">
+    <section  class="Form_Registro">
+    <form class="Form_Registro_Contenedor" id="Formulario">
             <div class="Form_Registro_Titulo">
                 <h1 class="Form_Titulo_h1">CCAI TESI</h1>
                 <div class="Contenedor_Imagen">
@@ -40,13 +40,22 @@
                 
 
                 <div class="Form_Botones">
-                    <nav>
-                        <input class="Check" type="checkbox" name="" id="myCheckbox"">Accepto terminos de <a href="privacidad.php">Privacidad</a></input>
+                    <nav class="nav_form">
+                        <input class="Check" type="checkbox" name="" id="myCheckbox">Accepto terminos de <a href="privacidad.php">Privacidad</a></input>
                     </nav>
-                    <button class="boton_enviar" id="myButton" onclick="validarCheckbox()">Registrar</button>
+                    <h1 class="invalido" id="invalido">Acepte terminos de Privacidad</h1>
+
                     
                 </div>
+                <input type="submit" class="boton_enviar" id="myButton" onclick="validarCheckbox()"></input>
             </div>
-        </form>
+         </form>
     </section>
+
+    <script src="JS/Form_Proyectos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </body>
+
+
+
+        

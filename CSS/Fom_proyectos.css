@@ -28,6 +28,10 @@
     padding:30px
   }
   
+  .invalido{
+    color: red;
+    opacity: 0;
+  }
 
   
   .Form_Registro_Titulo img{

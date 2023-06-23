@@ -51,7 +51,7 @@
                 </div>
             </button>
             
-        </nav>
+        </form>
     </Section>
         <script src="JS/Validacion.js"></script>
 </body>

@@ -32,23 +32,7 @@ function validateInput(event) {
     
   }
 
-  function limitInputLength(input, maxLength) {
-    if (input.value.length > maxLength) {
-      input.value = input.value.slice(0, maxLength); // Recortar el valor al máximo permitido
-    }
-  }
-
-const checkbox = document.getElementById('myCheckbox');
-const button = document.getElementById('myButton');
-const boton=document.getElementsByClassName("Btn_Registrar");
-
-checkbox.addEventListener('change', function() {
-  button.disabled = !checkbox.checked;
-  if (!checkbox.checked) {
-    boton.style.border="5px solid red";
-    
-  }
-});
+ 
 
 function validarCheckbox() {
   var checkbox = document.getElementById('myCheckbox');
@@ -63,4 +47,5 @@ function validarCheckbox() {
     button.disabled = false;
   }
 }
+
 
