@@ -207,3 +207,70 @@
     transform: translateX(40px);
     color: white;
 }
+
+
+
+.Redes_Sociales{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  
+  .Redes_Sociales_facebook{
+    position: relative;
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-width:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s;
+  }
+  .Redes_Sociales_youtube{
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-width:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  .Redes_Sociales_tesi{
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-width:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .Redes_Sociales_facebook a img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: 0.5s;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(25deg) brightness(102%) contrast(102%);
+  }
+  .Redes_Sociales_youtube a img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: 0.5s;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(25deg) brightness(102%) contrast(102%);
+  }
+  .Redes_Sociales_tesi a img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: 0.5s;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(25deg) brightness(102%) contrast(102%);
+  }
+  
