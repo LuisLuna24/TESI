@@ -41,7 +41,7 @@
 
                 <div class="Form_Botones">
                     <nav class="nav_form">
-                        <input class="Check" type="checkbox" name="" id="myCheckbox">Accepto terminos de <a href="privacidad.php">Privacidad</a></input>
+                        <input class="Check" type="checkbox" name="" id="myCheckbox" onclick="validarCheckbox()">Accepto terminos de <a href="privacidad.php">Privacidad</a></input>
                     </nav>
                     <h1 class="invalido" id="invalido">Acepte terminos de Privacidad</h1>
 
