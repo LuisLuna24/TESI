@@ -15,7 +15,7 @@
                 </li>
 
                 <li class="menu__item">
-                    <a href="inicio.php" class="menu__link">¿Quiénes Somos?</a>
+                    <a href="Nosotros.php" class="menu__link">¿Quiénes Somos?</a>
                 </li>
 
                 <li class="menu__item">
