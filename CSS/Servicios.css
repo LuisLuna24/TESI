@@ -42,11 +42,12 @@ header{
 }
 
 .tituloCCAI .divTitulo label{
+    
     font-size: 50px;
     color: #fff;
 }
 
-/*=================================parrte1======================================*/
+/*=================================parte1======================================*/
 .Servicios{
     display: flex;
     flex-wrap: wrap;
