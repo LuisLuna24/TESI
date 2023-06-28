@@ -3,20 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Contacto</title>
-    <link rel="stylesheet" href="CSS/contacto.css">
-</head>
-<body>
-<!--===============================================================================================
-                                            Tituo
-==================================================================================================-->
-    <header>
-        <?php require('Global/cabesera.php'); ?> 
-        <div  class="tituloCCAI">
-            <div id="divTitulo" class="divTitulo">
-                <h1>Contactanos</h1>
-=======
     <title>Document</title>
     <link rel="stylesheet" href="CSS/contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,26 +14,15 @@
 <link rel="stylesheet" href="CSS/contacto.css">
 </head>
 <body>
-<header>
+    <header>
         <?php require('Global/cabesera.php'); ?> 
         <div  class="tituloCCAI">
             <div id="divTitulo" class="divTitulo">
                 <h1>Contacto</h1>
->>>>>>> bffb477aab2edaebf4876eaed915b9b4c43edec5
                 <label>Bienvenido</label>
             </div>
         </div>
     </header>
-<<<<<<< HEAD
-
-<!--===============================================================================================
-                                            Parte final
-==================================================================================================-->
-    <footer class="fin">
-        <?php require('Global/footer.php');?>
-    </footer> 
-    
-=======
     <section class="Titulo_Contacto">
         <h1>Ubicacion</h1>
         <div class="Contenedor_Contenido">
@@ -85,6 +60,5 @@
              <label for="">Redes sociales</label>
              </nav>
     </section>
->>>>>>> bffb477aab2edaebf4876eaed915b9b4c43edec5
 </body>
 </html>

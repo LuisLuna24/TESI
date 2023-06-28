@@ -2,17 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
-  }
-  
-  header{
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .tituloCCAI{
-=======
 }
 
 header{
@@ -22,7 +11,6 @@ header{
 }
 
 .tituloCCAI{
->>>>>>> bffb477aab2edaebf4876eaed915b9b4c43edec5
     width: 100%;
     height:  600px;
     overflow: hidden;
@@ -31,15 +19,6 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-<<<<<<< HEAD
-    background: #000000 url("../img/TesiFondo.jpg") no-repeat;
-    background-size: 100% 100%;
-    z-index: -1;
-    text-align: center;
-  }
-  
-  .divTitulo{
-=======
     background: #000000 url("../img/tesi2.jpeg") no-repeat;
     background-size: 100% 100%;
     z-index: -1;
@@ -47,7 +26,6 @@ header{
 }
 
 .divTitulo{
->>>>>>> bffb477aab2edaebf4876eaed915b9b4c43edec5
     background-color: #00000079;
     width: 100%;
     height: 100%;
@@ -55,20 +33,6 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-  }
-  
-  .tituloCCAI .divTitulo h1{
-    font-size: 100px;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .tituloCCAI .divTitulo label{
-    font-size: 50px;
-    color: #fff;
-  }
-=======
 }
 
 .tituloCCAI .divTitulo h1{
@@ -106,6 +70,13 @@ header{
     gap: 40px;
 
    
+}
+
+.informacion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .Contenedor_Contenido{
@@ -296,4 +267,3 @@ button {
   font-family: 'Belanosima', sans-serif;
   font-size: 60px;
 }
->>>>>>> bffb477aab2edaebf4876eaed915b9b4c43edec5
