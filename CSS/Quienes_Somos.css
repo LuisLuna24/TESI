@@ -45,3 +45,227 @@ header{
   font-size: 50px;
   color: #fff;
 }
+
+.contenedor__elements{
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  display: grid;
+  grid-template: repeat(3,1fr) / repeat(3,1fr);
+  background-color: blue;
+}
+.contenedor__img{
+  background-color: black;
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+.contenedor__img img{
+width: 100%;
+height: 270px;
+
+}
+.contenedor-letras{
+  grid-column: 2/3; 
+  grid-row: 2/3; 
+  margin-top: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0, 0, 0.575);
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+
+.objetive{
+  width: 100%;
+  padding: 30px;
+}
+
+.container__objetive{
+  display: flex;
+  width: 100%;
+  margin-top: 80px;
+  
+  /* height: 400px; */
+  /* box-shadow: 0 0 20px 5px rgba(0,0,0, .5); */
+}
+.container__objetive__text{
+  width: 50%;
+  /* height: 400px; */
+
+}
+.container__objetive__text__tilte{
+  font-size: 1.4em;
+  font-family: verdana;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container__objetive__text__information{ 
+  margin-top: 20px;
+  text-align: justify;
+  font-family: Arial;
+  padding: 10px;
+}
+
+.container__objetive__text__image{
+  width: 50%;
+  /* height: 400px; */
+}
+.container__objetive__text__image img{
+  width: 100%;
+  height: 100%;
+}
+
+.container__objetive__text__information{
+  border-top: 2px solid blue;
+}
+
+
+
+/* Section 2 ------------------------->*/
+
+.mision{
+  width: 100%;
+  padding: 30px;
+}
+
+.container__mision{
+  margin-top: 50px;
+  display: flex;
+  width:100%;
+  height: 500px;
+  /* box-shadow: 0 0 10px 1px rgba(0,0,0, .5); */
+}
+
+.container__mision__text{
+width: 50%;
+}
+
+.container__mision__text__tite{
+  font-size: 1.4em;
+  font-family: verdana;
+  text-align: center;
+  margin-top: 20%;
+
+}
+
+.container__mision__text__information{
+  font-family: Arial;
+  padding: 30px;
+  font-size: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container__mision__text__image{
+  width: 50%;
+}
+.container__mision__text__image img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.container__mision__text__image--activo{
+  display: none;
+}
+
+/* Section Activities----------------------> */
+
+.container__activities{
+width: 100%;
+margin-top: 40px;
+
+}
+.container__activities__text__title{
+  font-size: 1.4em;
+  font-family: verdana;
+  text-align: center;
+}
+
+.container__activities__text__information{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.container__activities__cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container__activities__card{
+  margin-top: 20px;
+  padding: 20px;
+  width: 400px;
+
+}
+.container__activities__card__text{
+  /* margin-top: 30px; */
+
+}
+
+
+/* Section Areas---->*/
+.container__Areas__title{
+  font-size: 1.4em;
+  text-align: center;
+  margin-top: 20px;
+}
+.Container__Areas__text{
+ display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.container__AreasE__title{
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 860px) {
+
+.container__objetive__text__image{
+     display: none;
+}
+.container__objetive__text{
+  color: aliceblue;
+  width: 100%;
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(17, 17, 16, 0.5)), url("../img/objetivo.jpg");
+  background-position: 20% 20%;
+}   
+
+.container__mision{
+  display: block;
+
+}
+.container__mision__text{
+  width: 100%;
+}
+.container__mision__text__image{
+  display: none;
+}
+.container__mision__text__image--activo{
+  display: flex;
+  width: 100%;
+}
+.container__mision__text__image--activo{
+  display: flex;
+  width: 100%;
+}
+.container__mision__text__image--activo img{
+  width: 100%;
+}
+
+}
