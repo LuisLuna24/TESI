@@ -45,6 +45,14 @@ header{
     font-size: 50px;
     color: #fff;
 }
+
+.Contacto_Contenedor{
+  width: 80%;
+  background-color: #cccaca7c;
+  border-radius: 15px;
+  padding: 15px;
+}
+
 .Contacto{
         display: flex;
         flex-wrap: wrap;
@@ -56,7 +64,9 @@ header{
 }
 
 
-
+.Mapa{
+  border-radius: 15px;
+}
 
 .Titulo_Contacto{
     width: 100%;
@@ -68,6 +78,8 @@ header{
     font-family: 'Belanosima', sans-serif;
     font-size: 40px;
     gap: 40px;
+    padding: 50px;
+    
 
    
 }
@@ -77,11 +89,23 @@ header{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 50%;
+}
+
+.boton{
+  width: 50%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 
 .Contenedor_Contenido{
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .Titulo_Contacto h1 {
     width: 100%;
@@ -245,13 +269,7 @@ button {
     display: flex;
     gap: 15px;
 }
-.boton{
-    width: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-}
+
 
 .Btn_Registrar0{
     
