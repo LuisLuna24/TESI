@@ -270,26 +270,33 @@
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-evenly;
-  align-items: start;
+  align-items: center;
   gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .Beneficio_Contenido{
-  min-width: 250px;
-  height: 500px;
+  width: 30%;
+  font-size: 17px;
   border-radius: 15px;
-  background-color: #a7a7a7a2;
-  padding: 15px;
-  display: flex;
-  flex: 0 0 255px;
-  align-items: center;
-  justify-content:start;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 10px;
+  background-color: #cccacad7;
+  padding: 20px;
 }
 
-.Beneficio_Contenido img{
-  width: 100%;
+.img_Beneficios{
+  
+  width: 50%;
   border-radius: 15px;
+}
+
+@media(max-width:700px){
+  .img_Beneficios{
+    min-width: 80%;
+    border-radius: 15px;
+  }
+  .Beneficio_Contenido{
+    text-align: center;
+    width: 90%;
+  }
 }
