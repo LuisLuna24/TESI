@@ -12,29 +12,51 @@ header{
     overflow: hidden;
 }
 
-.Titulo_Tesi{
-    display: grid;
-    position: relative;
+.tituloCCAI{
     width: 100%;
-    height: 800px;
-    padding: 10px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/TesiFondo.jpg");
+    height:  800px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000000 url("../img/TEESI.jpg") no-repeat;
     background-size: 100% 100%;
-    place-content: center;
+    z-index: -1;
     text-align: center;
-}
-
-.Titulo_Tesi h1{
-    font-size: 60px;
+  }
+  
+  .divTitulo{
+    background-color: #00000079;
     width: 100%;
     height: 100%;
-    color: #fff;
-}
-
-.Titulo_Tesi label{
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .tituloCCAI .divTitulo h1{
+    font-size: 70px;
     color: #fff;
     text-align: center;
+  }
+  
+  .tituloCCAI .divTitulo label{
+    font-size: 30px;
+    color: #fff;
+  }
+
+  @media(max-width:700px){
+    .tituloCCAI .divTitulo h1{
+      font-size: 40px;
+    }
+    .tituloCCAI .divTitulo label{
+      font-size: 20px;
+      color: #fff;
+    }
 }
 
 /*==================================================================================

@@ -27,13 +27,13 @@
     <section class="objetive">
         <div class="container__objetive">
             <div class="container__objetive__text__image">
-                <img src="img/objetivo.jpg" alt="">
+                <img src="img/instalacion-4.jpg" alt="">
             </div>
             <div class="container__objetive__text">
                 <div class="container__objetive__text__tilte">
                     <h2>Nuestro Objetivo</h2>
-                    
                 <div>
+                <div class=Borde></div>
             <div>
         </div>
         <div class="container__objetive__text__information">
@@ -49,7 +49,7 @@
 
                 <div class="container__mision__text__tite">
                     <h2>Misión</h2>
-                    
+                    <div class=Borde></div>
                 </div>
 
                 <div class="container__mision__text__information">
@@ -59,7 +59,7 @@
             </div>
 
             <div class="container__mision__text__image">
-                <img src="img/iamgenM.jpg" alt="">
+                <img src="img/Sistemsa1.jpg" alt="">
             </div>
 
             <div class="container__mision__text__image--activo">
@@ -74,15 +74,18 @@
                 <div class="container__activities__text__title">
                     <h2>Actividades</h2>
                 </div>
+            </div>
+
             <div class="container__activities__text__information">
                 <p>Para llevar a cabo esto, el TESI requiere del desarrollo y fortalecimiento de actividades tales como:</p>
             </div>
+
         </div>
 
         <div class="container__activities__cards">
 
             <div class="container__activities__card  card1">
-                <hr class="line">
+                <div class=Borde></div>
                 <div class="container__activities__card__text">
                     <li type="disc">Establecimiento y operación de una red de cooperación entre empresas e Instituciones de Educación Superior (IES).</li>
                     <li type="disc">Desarrollo y transferencia tecnológica.</li>
@@ -91,7 +94,7 @@
             </div>
 
             <div class="container__activities__card  card2">
-                <hr class="line">
+                <div class=Borde></div>
                 <div class="container__activities__card__text">
                     <li type="disc">Mayor productividad y una mejor gestión de los recursos.</li>
                     <li type="disc">Apoyo a las PyMEs con equipo instalado en las IES.</li>
@@ -101,7 +104,7 @@
 
 
             <div class="container__activities__card   card3">
-                <hr class="line">
+                <div class=Borde></div>
                 <div class="container__activities__card__text">
                     <li type="disc">Promoción para que profesores desarrollen proyectos vinculados</li>
                     <li type="disc">Promoción para que profesores desarrollen proyectos vinculados.</li>
@@ -115,75 +118,75 @@
 
     <section class="Areas">
         <div class="Container__Areas">
-           <div class="container__Areas__title">
-            <h2>Áreas Estrategicas</h2>
-           </div>
+            <div class="container__Areas__title">
+                <h2>Áreas Estrategicas</h2>
+            </div>
 
-           <div class="Container__Areas__text">
-            <p>Así mismo, derivado de la ubicación geográfica de la universidad, el Estado de México es una entidad dinámica y en crecimiento que mantiene su impulso productivo en varios sectores como PyMEs y TICS. Dichos sectores se han convertido en áreas estratégicas de desarrollo para la entidad y que presentan la necesidad de realzar trabajo colaborativo entre las empresas, industrias y organizaciones del sector de bienes y servicios paraqué conjuntamente se avance en el desarrollo de la zona oriente del Estado de México que incluye los municipios de: Ixtapaluca, Amecameca, Valle de Chalco, Chalco, La Paz, Chicoloapan, Texcoco, Chimalhuacán y Nezahualcóyotl.</p>
-
-           </div>
+            <div class="Container__Areas__text">
+                <p>Así mismo, derivado de la ubicación geográfica de la universidad, el Estado de México es una entidad dinámica y en crecimiento que mantiene su impulso productivo en varios sectores como PyMEs y TICS. Dichos sectores se han convertido en áreas estratégicas de desarrollo para la entidad y que presentan la necesidad de realzar trabajo colaborativo entre las empresas, industrias y organizaciones del sector de bienes y servicios paraqué conjuntamente se avance en el desarrollo de la zona oriente del Estado de México que incluye los municipios de: Ixtapaluca, Amecameca, Valle de Chalco, Chalco, La Paz, Chicoloapan, Texcoco, Chimalhuacán y Nezahualcóyotl.</p>
+            </div>
         </div>
     </section>
 
     <section>
         <div class="container__AreasE">
-         <div class="container__AreasE__title">
-            <h2>Áreas de interes</h2>
-         </div>
+            <div class="container__AreasE__title">
+                <h2>Áreas de interes</h2>
+            </div>
 
- <div class="container__AreasE__card1">
-    <div class="container__Areas__card1__title">
-        <h2>Industria 4.0:</h2>
-    </div>
+            <div class="container__AreasE__card1">
+                <div class="container__Areas__card1__title">
+                    <h2>Industria 4.0:</h2>
+                </div>
 
-    <div class="container__Areas__card1__text">
-        <div class="container__Areas__card1__text__title">
-         <h2>Áreas de la salud.</h2>
-        </div>
-        <div class="container__Areas__card1__text__content">
-        <li type="disc">Sistemas de modelados con realidad aumentada previos a cirugías.</li>
-        <li type="disc">Sistemas de ayuda a familiares y pacientes, para dar seguimiento a indicaciones previas y posteriores a intervenciones médicas.</li>
-        <li type="disc">Asistentes inteligentes para la automatización de citas, consultas e intervenciones médicas.</li>
-        </div>
-    </div>
- </div>
+                <div class="container__Areas__card1__text">
+                    <div class="container__Areas__card1__text__title">
+                        <h2>Áreas de la salud.</h2>
+                    </div>
+                    <div class="container__Areas__card1__text__content">
+                        <li type="disc">Sistemas de modelados con realidad aumentada previos a cirugías.</li>
+                        <li type="disc">Sistemas de ayuda a familiares y pacientes, para dar seguimiento a indicaciones previas y posteriores a intervenciones médicas.</li>
+                        <li type="disc">Asistentes inteligentes para la automatización de citas, consultas e intervenciones médicas.</li>
+                    </div>
+                </div>
+            </div>
 
- <div class="container__Areas__card2__text">
-        <div class="container__Areas__card2__text__title">
-         <h2>Seguridad Publica.</h2>
-        </div>
-        <div class="container__Areas__card2__text__content">
-        <li type="disc">Mapeo inteligente de zonas delictivas.</li>
-        <li type="disc">Simulacros simulados de desastres naturales.</li>
-    </div>
- </div>
+            <div class="container__Areas__card2__text">
+                <div class="container__Areas__card2__text__title">
+                    <h2>Seguridad Publica.</h2>
+                </div>
+                <div class="container__Areas__card2__text__content">
+                    <li type="disc">Mapeo inteligente de zonas delictivas.</li>
+                    <li type="disc">Simulacros simulados de desastres naturales.</li>
+                </div>
+            </div>
 
- <div class="container__Areas__card3__text">
-        <div class="container__Areas__card3__text__title">
-         <h2>Educación.</h2>
-        </div>
-        <div class="container__Areas__card3__text__content">
-        <li type="disc">Diseño, desarrollo e implementación de plataformas educativas para nivel básico y tronco común.</li>
-        <li type="disc">Asistentes inteligentes para asesorías en áreas de español y matemáticas a nivel básico.</li>
-        <li type="disc">Cursos de incursión a la robótica, a nivel básico.</li>
-    </div>
- </div>
+            <div class="container__Areas__card3__text">
+                <div class="container__Areas__card3__text__title">
+                    <h2>Educación.</h2>
+                </div>
+                <div class="container__Areas__card3__text__content">
+                    <li type="disc">Diseño, desarrollo e implementación de plataformas educativas para nivel básico y tronco común.</li>
+                    <li type="disc">Asistentes inteligentes para asesorías en áreas de español y matemáticas a nivel básico.</li>
+                    <li type="disc">Cursos de incursión a la robótica, a nivel básico.</li>
+                </div>
+            </div>
 
- <div class="container__Areas__card4__text">
-        <div class="container__Areas__card4__text__title">
-         <h2>Empresas en general.</h2>
-        </div>
-        <div class="container__Areas__card4__text__content">
-        <li type="disc">Desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa (sistemas gerenciales, sistemas para toma de decisiones, sistemas de transacciones, sistemas de control).</li>
-        <li type="disc">Aplicación de Inteligencia Artificial para la captación de nuevos clientes..</li>
-        <li type="disc">Aplicación de Machine Learning para incrementar las ventas.</li>
-        <li type="disc"> Aplicación de Machine Learning para incrementar las ventas.</li>
-    </div>
- </div>
+            <div class="container__Areas__card4__text">
+                <div class="container__Areas__card4__text__title">
+                    <h2>Empresas en general.</h2>
+                </div>
+                <div class="container__Areas__card4__text__content">
+                    <li type="disc">Desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa (sistemas gerenciales, sistemas para toma de decisiones, sistemas de transacciones, sistemas de control).</li>
+                    <li type="disc">Aplicación de Inteligencia Artificial para la captación de nuevos clientes..</li>
+                    <li type="disc">Aplicación de Machine Learning para incrementar las ventas.</li>
+                    <li type="disc"> Aplicación de Machine Learning para incrementar las ventas.</li>
+                </div>
+            </div>
+
         </div>
 
-        
     </section>
+     
 </body>
 </html>
