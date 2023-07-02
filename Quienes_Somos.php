@@ -134,59 +134,70 @@
                 <h2>Áreas de interes</h2>
             </div>
 
-            <div class="container__AreasE__card1">
-                <div class="container__Areas__card1__title">
-                    <h2>Industria 4.0:</h2>
-                </div>
-
-                <div class="container__Areas__card1__text">
-                    <div class="container__Areas__card1__text__title">
-                        <h2>Áreas de la salud.</h2>
-                    </div>
-                    <div class="container__Areas__card1__text__content">
-                        <li type="disc">Sistemas de modelados con realidad aumentada previos a cirugías.</li>
-                        <li type="disc">Sistemas de ayuda a familiares y pacientes, para dar seguimiento a indicaciones previas y posteriores a intervenciones médicas.</li>
-                        <li type="disc">Asistentes inteligentes para la automatización de citas, consultas e intervenciones médicas.</li>
+            <div class="container__AreasE__Todo">
+                <div class="container__AreasE__card">
+                    <div class="container__Areas__card1__text">
+                        <div class="container__Areas__card1__text__title">
+                            <h2>Áreas de la salud.</h2>
+                        </div>
+                        <div class="container__Areas__card1__text__content">
+                            <li type="disc">Sistemas de modelados con realidad aumentada previos a cirugías.</li>
+                            <li type="disc">Sistemas de ayuda a familiares y pacientes, para dar seguimiento a indicaciones previas y posteriores a intervenciones médicas.</li>
+                            <li type="disc">Asistentes inteligentes para la automatización de citas, consultas e intervenciones médicas.</li>
+                        </div>
                     </div>
                 </div>
-            </div>
+                
+                <div class="container__AreasE__card">
+                    <div class="container__Areas__card2__text">
+                        <div class="container__Areas__card2__text__title">
+                            <h2>Seguridad Publica.</h2>
+                        </div>
+                        <div class="container__Areas__card2__text__content">
+                            <li type="disc">Mapeo inteligente de zonas delictivas.</li>
+                            <li type="disc">Simulacros simulados de desastres naturales.</li>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="container__Areas__card2__text">
-                <div class="container__Areas__card2__text__title">
-                    <h2>Seguridad Publica.</h2>
+                <div class="container__AreasE__card">
+                    <div class="container__Areas__card3__text">
+                        <div class="container__Areas__card3__text__title">
+                            <h2>Educación.</h2>
+                        </div>
+                        <div class="container__Areas__card3__text__content">
+                            <li type="disc">Diseño, desarrollo e implementación de plataformas educativas para nivel básico y tronco común.</li>
+                            <li type="disc">Asistentes inteligentes para asesorías en áreas de español y matemáticas a nivel básico.</li>
+                            <li type="disc">Cursos de incursión a la robótica, a nivel básico.</li>
+                        </div>
+                    </div>
                 </div>
-                <div class="container__Areas__card2__text__content">
-                    <li type="disc">Mapeo inteligente de zonas delictivas.</li>
-                    <li type="disc">Simulacros simulados de desastres naturales.</li>
-                </div>
-            </div>
 
-            <div class="container__Areas__card3__text">
-                <div class="container__Areas__card3__text__title">
-                    <h2>Educación.</h2>
+                <div class="container__AreasE__card">
+                    <div class="container__Areas__card4__text">
+                        <div class="container__Areas__card4__text__title">
+                            <h2>Empresas en general.</h2>
+                        </div>
+                        <div class="container__Areas__card4__text__content">
+                            <li type="disc">Desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa (sistemas gerenciales, sistemas para toma de decisiones, sistemas de transacciones, sistemas de control).</li>
+                            <li type="disc">Aplicación de Inteligencia Artificial para la captación de nuevos clientes..</li>
+                            <li type="disc">Aplicación de Machine Learning para incrementar las ventas.</li>
+                            <li type="disc"> Aplicación de Machine Learning para incrementar las ventas.</li>
+                        </div>
+                    </div>
                 </div>
-                <div class="container__Areas__card3__text__content">
-                    <li type="disc">Diseño, desarrollo e implementación de plataformas educativas para nivel básico y tronco común.</li>
-                    <li type="disc">Asistentes inteligentes para asesorías en áreas de español y matemáticas a nivel básico.</li>
-                    <li type="disc">Cursos de incursión a la robótica, a nivel básico.</li>
-                </div>
-            </div>
 
-            <div class="container__Areas__card4__text">
-                <div class="container__Areas__card4__text__title">
-                    <h2>Empresas en general.</h2>
-                </div>
-                <div class="container__Areas__card4__text__content">
-                    <li type="disc">Desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa (sistemas gerenciales, sistemas para toma de decisiones, sistemas de transacciones, sistemas de control).</li>
-                    <li type="disc">Aplicación de Inteligencia Artificial para la captación de nuevos clientes..</li>
-                    <li type="disc">Aplicación de Machine Learning para incrementar las ventas.</li>
-                    <li type="disc"> Aplicación de Machine Learning para incrementar las ventas.</li>
-                </div>
             </div>
-
         </div>
 
     </section>
+
+<!--===============================================================================================
+                                            Parte final
+==================================================================================================-->
+    <footer class="fin">
+        <?php require('Global/footer.php');?>
+    </footer>
      
 </body>
 </html>
