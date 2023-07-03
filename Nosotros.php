@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Nosotros.css?see=1.4">
+    <link rel="stylesheet" href="css/Nosotros.css?see=1.3">
     <title>¿QUIENES SOMOS? - CCAI TESE – Centro de Cooperación Academia Industria</title>
 </head>
 <body>
@@ -180,10 +180,9 @@
         <li type="disc"> Aplicación de Machine Learning para incrementar las ventas.</li>
     </div>
  </div>
-
-
-
         </div>
+
+        
     </section>
 </body>
 </html>
