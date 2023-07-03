@@ -6,268 +6,145 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.social_media{
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    text-align: center;
-    flex-wrap: wrap;
 }
 
-.social{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-top: 10px;
-}
-@media(max-width:700px){
-    .social{
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-.social_media_Titulo{
+.Redes_Sociales_Titulo{
     color: white;
-    text-align: center;
+    font-size: 1.3em;
 }
-
-.facebook{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    border-radius: 25px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-    
-}
-
-.facebook a{
-    position: absolute;
-    text-decoration: none;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: blue;
-    z-index: +1;
-    
-}
-
-.FB {
-    width: 5000px;
-    height: 30px;
-    background-color: blue;
-    color: white;
-    opacity: 0;
-    transition: 0.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-}
-
-.FBtitulo{
-    width: 100px;
-    text-align: center;
-}
-
-
-.facebook:hover{
-    background-color: blue;
-}
-.facebook:hover a{
-    color: white;
-}
-.facebook:hover .FB{
-    opacity: 1;
-    transform: translateX(50px);
-    color: white;
-}
-
-
-
-.TESI{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    border-radius: 25px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-    
-}
-
-.TESI a{
-    position: absolute;
-    text-decoration: none;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #365A08;
-    z-index: +1;
-    
-}
-
-.TES {
-    width: 5000px;
-    height: 30px;
-    background-color: #365A08;
-    color: white;
-    opacity: 0;
-    transition: 0.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-}
-
-.TESItitulo{
-    width: 80px;
-    text-align: center;
-}
-
-
-.TESI:hover{
-    background-color: #365A08;
-}
-.TESI:hover a{
-    color: white;
-}
-.TESI:hover .TES{
-    opacity: 1;
-    transform: translateX(30px);
-    color: white;
-}
-
-
-.youtube{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    border-radius: 25px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-    
-}
-
-.youtube a{
-    position: absolute;
-    text-decoration: none;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #ff0000;
-    z-index: +1;
-    
-}
-
-.YT{
-    width: 5000px;
-    height: 30px;
-    background-color: #ff0000;
-    color: white;
-    opacity: 0;
-    transition: 0.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-}
-
-.YTtitulo{
-    width: 80px;
-    text-align: center;
-}
-
-
-.youtube:hover{
-    background-color: #ff0000;
-}
-.youtube:hover a{
-    color: white;
-}
-.youtube:hover .YT{
-    opacity: 1;
-    transform: translateX(40px);
-    color: white;
-}
-
-
 
 .Redes_Sociales{
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
-  }
-  
-  .Redes_Sociales_facebook{
-    position: relative;
-    width: 100%;
-    max-width: 50px;
-    height: 100%;
-    max-width:50px ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    transition: 0.5s;
-  }
-  .Redes_Sociales_youtube{
-    width: 100%;
-    max-width: 50px;
-    height: 100%;
-    max-width:50px ;
+    gap: 30px;
+}
+
+.Redes_Sociales_Facebook{
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-  }
-  .Redes_Sociales_tesi{
-    width: 100%;
-    max-width: 50px;
-    height: 100%;
-    max-width:50px ;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.Redes_Sociales_Youtube{
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  
-  .Redes_Sociales_facebook a img{
-    width: 100%;
     border-radius: 50%;
-    border: 3px solid white;
     transition: 0.5s;
-  }
-  .Redes_Sociales_youtube a img{
-    width: 100%;
+}
+
+.Redes_Sociales_Tesi{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 50%;
-    border: 3px solid white;
     transition: 0.5s;
-  }
-  .Redes_Sociales_tesi a img{
-    width: 100%;
+}
+
+.Facebook{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    border: 3px solid white;
+    transition:0.5s;
+}
+
+.Youtube{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition:0.5s;
+}
+
+.Tesi{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.Redes_Sociales_Facebook:hover{
+    background-color: blue;
+   
+}
+
+.Redes_Sociales_Youtube:hover{
+    background-color: red;
+}
+
+.Redes_Sociales_Tesi:hover{
+    background-color: green
+}
+
+.Redes_Sociales_Facebook img{
+    width: 100%;
+    height: 100%;
+}
+
+.Redes_Sociales_Youtube img{
+    width: 100%;
+    height: 100%;
+}
+
+.Redes_Sociales_Tesi img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.Facebook_Titulo{
+    position: absolute;
+    color: white;
+    opacity: 0;
     transition: 0.5s;
-  }
-  
+}
+
+.Youtube_Titulo{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Tesi_Titulo{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Redes_Sociales_Facebook:hover .Facebook_Titulo{
+    transform: translateY(30px);
+    opacity: 1;
+}
+
+.Redes_Sociales_Youtube:hover .Youtube_Titulo{
+    transform: translateY(30px);
+    opacity: 1;
+}
+
+.Redes_Sociales_Tesi:hover .Tesi_Titulo{
+    transform: translateY(30px);
+    opacity: 1;
+}
