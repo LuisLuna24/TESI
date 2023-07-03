@@ -15,19 +15,22 @@
                 </li>
 
                 <li class="menu__item">
+
+                    <a href="Quienes_Somos.php" class="menu__link">¿Quiénes Somos?</a>
                     <a href="Nosotros.php" class="menu__link">¿Quiénes Somos?</a>
+
                 </li>
 
                 <li class="menu__item">
-                    <a href="inicio.php" class="menu__link">Investigación</a>
+                    <a href="investigacion.php" class="menu__link">Investigación</a>
                 </li>
 
                 <li class="menu__item">
-                    <a href="#" class="menu__link">Privacidad</a>
+                    <a href="privacidad.php" class="menu__link">Privacidad</a>
                 </li>
 
                 <li class="menu__item">
-                    <a href="inicio.php" class="menu__link">Contacto</a>
+                    <a href="contacto.php" class="menu__link">Contacto</a>
                 </li>
             </ul>
 
