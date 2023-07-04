@@ -17,7 +17,6 @@
                 <li class="menu__item">
 
                     <a href="Quienes_Somos.php" class="menu__link">¿Quiénes Somos?</a>
-                    <a href="Nosotros.php" class="menu__link">¿Quiénes Somos?</a>
 
                 </li>
 
