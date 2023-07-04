@@ -285,3 +285,49 @@ button {
   font-family: 'Belanosima', sans-serif;
   font-size: 60px;
 }
+.empresa{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+  font-size: 35px;
+}
+.ccai{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+} 
+.direccion{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+  font-size: 35px;
+}
+.E-mail{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+  font-size: 35px;
+}
+.Giro{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+  font-size: 35px;
+}
+.imagen{
+  width: 70%;
+  height: 40%;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
