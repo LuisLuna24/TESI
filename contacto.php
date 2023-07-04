@@ -14,12 +14,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&family=Play&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="CSS/contacto.css">
 
 </head>
 <body>
-<header>
-    
+    <header>
         <?php require('Global/cabesera.php'); ?> 
         <div  class="tituloCCAI">
             <div id="divTitulo" class="divTitulo">
@@ -28,12 +26,13 @@
             </div>
         </div>
     </header>
+
     <section class="Titulo_Contacto">
-        <h1>Ubicacion</h1>
+        <h2 class="Titulo_Contacto_Titulo">Ubicacion:</h2>
         <div class="Contenedor_Contenido">
             <nav class="informacion">
                 <label for="">Visitanos </label>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.9093826969006!2d-98.84937000000005!3d19.37307599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e0124f50dceb%3A0x8a0bcd921052a741!2sTecnol%C3%B3gico%20de%20Estudios%20Superiores%20de%20Ixtapaluca!5e0!3m2!1ses-419!2smx!4v1687882962271!5m2!1ses-419!2smx" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.9093826969006!2d-98.84937000000005!3d19.37307599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e0124f50dceb%3A0x8a0bcd921052a741!2sTecnol%C3%B3gico%20de%20Estudios%20Superiores%20de%20Ixtapaluca!5e0!3m2!1ses-419!2smx!4v1687882962271!5m2!1ses-419!2smx" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </nav>
             <nav class="boton">
                 <label for="">comunicate con nosotros, te contestaremos a la brevedad:</label>
@@ -60,45 +59,37 @@
              </nav>
       </div>
     </section>
-    <section>
-    <img class="imagen" src="img/tesi1.png" alt="">
+
+    <section class="Imagen_Tesi">
+        <img class="imagen" src="img/tesi1.png" alt="">
     </section>
-    <section>
-    <nav class="Redes"> 
-             <label for="">Redes sociales</label>
-             </nav>
-    </section>
-    <section>
-    <nav class="empresa">
-             <label>Empresa:</label>
-             </nav>
-             <nav class=ccai>
-             <label>Centro de Cooperación Academia Industria (CCAI)</label>
-             </nav>
-    </section>
-    <section>
-        <nav class="direccion">Direccion:</nav>
-        <nav class=ccai>
-        <label>Carretera Coatepec, Callejon San Juan 7, 56580 Ixtapaluca, Méx.</label>
-        </nav>
-    </section>
-    <section>
-        <nav class="direccion">Telefono:</nav>
-        <nav class=ccai>
-        <label>0000000000</label>
-        </nav>
-    </section>
-    <section>
-        <nav class="E-mail">E-mail:</nav>
-        <nav class=ccai>
-        <label>ccai@tesi.edu.mx</label>
-        </nav>
-    </section>
-    <section>
-        <nav class="Giro">Giro:</nav>
-        <nav class=ccai>
-        <label>Desarrollo Tecnológico</label>
-        </nav>
+    <section class="Redes_Sociales">
+        <section class="Titulo_Redes">
+            <h1>Empresa</h1>
+            <label>Tecnologico de Estudios Superiores de Ixtapaluca</label>
+        </section>
+
+        <section class="Redes">
+            <div class="Redes_Informacion">
+                <label class="Redes_Informacion_Direccion">Direccion: </label>
+                <label>Carretera Coatepec, Callejon San Juan 7, 56580 Ixtapaluca, Méx.</label>
+            </div>
+
+            <div class="Redes_Informacion">
+                <label class="Redes_Informacion_Telefono">Telefono: </label>
+                <label>0000000000</label>
+            </div>
+
+            <div class="Redes_Informacion">
+                <label class="Redes_Informacion_Correo">E-mail: </label>
+                <label>ccai@tesi.edu.mx</label>
+            </div>
+
+            <div class="Redes_Informacion">
+                <label class="Redes_Informacion_Giro">Giro :</label>
+                <label>Desarrollo Tecnológico</label>
+            </div>
+        </section>
     </section>
 </body>
 </html>

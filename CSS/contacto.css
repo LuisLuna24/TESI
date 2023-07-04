@@ -36,13 +36,13 @@ header{
 }
 
 .tituloCCAI .divTitulo h1{
-    font-size: 100px;
+    font-size: 4.5em;
     color: #fff;
     text-align: center;
 }
 
 .tituloCCAI .divTitulo label{
-    font-size: 50px;
+    font-size: 3em;
     color: #fff;
 }
 
@@ -65,6 +65,7 @@ header{
 
 
 .Mapa{
+  width: 50%;
   border-radius: 15px;
 }
 
@@ -74,14 +75,11 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
-    font-family: 'Belanosima', sans-serif;
-    font-size: 40px;
-    gap: 40px;
-    padding: 50px;
-    
+    padding: 20px;
+}
 
-   
+.Titulo_Contacto_Titulo{
+  font-size:4em ;
 }
 
 .informacion{
@@ -90,6 +88,8 @@ header{
   justify-content: center;
   flex-direction: column;
   width: 50%;
+  font-size: 2.8em;
+  font-family: 'Belanosima', sans-serif;
 }
 
 .boton{
@@ -98,6 +98,16 @@ header{
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ text-align: center;
+}
+
+.boton label{
+  font-size: 2em;
+  font-family: 'Belanosima', sans-serif;
+}
+
+.ubicacion{
+  width: 100%;
 }
 
 .Contenedor_Contenido{
@@ -106,7 +116,36 @@ header{
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgba(206, 206, 206, 0.705);
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+    flex-wrap: wrap;
 }
+
+@media(max-width:700px){
+  .Contenedor_Contenido{
+    flex-direction: column;
+  }
+  .informacion{
+    width: 100%;
+  }
+  .tituloCCAI .divTitulo h1{
+    font-size: 2.6em;
+  }
+  .tituloCCAI .divTitulo label{
+    font-size: 2.0em;
+  }
+  .Titulo_Contacto_Titulo{
+    font-size: 2.6em;
+  }
+  .boton label{
+    font-size: 1.4em;
+  }
+}
+
+
+
 .Titulo_Contacto h1 {
     width: 100%;
     display: flex;
@@ -276,58 +315,82 @@ button {
     width: 200px;
     margin-top: 30px;
 }
+
+.Redes_Sociales{
+  background-color: #cccaca7c;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.Titulo_Redes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.Titulo_Redes h1{
+  font-size: 2em;
+  text-align: center;
+}
+
+.Titulo_Redes label{
+  font-size: 1.5em;
+  text-align: center;
+}
+
 .Redes{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items:center ;
-  text-align: center;
-  font-family: 'Belanosima', sans-serif;
-  font-size: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+  place-content: center;
+  gap: 20px;
 }
-.empresa{
-  width: 100%;
-  display: flex;
+
+.Redes_Informacion{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid green;
+}
+
+.Redes_Informacion_Direccion{
   font-family: 'Belanosima', sans-serif;
   font-size: 35px;
 }
-.ccai{
-  width: 100%;
-  display: flex;
-  text-align: center;
-  font-family: 'Belanosima', sans-serif;
-  font-family: 'Play', sans-serif;
-  font-size: 20px;
-} 
-.direccion{
-  width: 100%;
-  display: flex;
-  text-align: center;
+
+.Redes_Informacion_Correo{
   font-family: 'Belanosima', sans-serif;
   font-size: 35px;
 }
-.E-mail{
-  width: 100%;
-  display: flex;
-  text-align: center;
+
+.Redes_Informacion_Telefono{
   font-family: 'Belanosima', sans-serif;
   font-size: 35px;
 }
-.Giro{
-  width: 100%;
-  display: flex;
-  text-align: center;
+
+.Redes_Informacion_Giro{
   font-family: 'Belanosima', sans-serif;
   font-size: 35px;
 }
+
 .imagen{
-  width: 70%;
-  height: 40%;
-  gap: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 50%;
   height: 100%;
-  margin: 0;
+}
+
+.Imagen_Tesi{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(max-width:700px){
+  .imagen{
+    width: 100%;
+    height: 100%;
+  }
 }
