@@ -3,7 +3,7 @@
 </head>
 
     <header class="header">
-        <a href="#" class="logo">AN</a>
+        <a href="#" class="logo">TESI</a>
         <input type="checkbox" id="side_menu" class="side_menu">
         <label for="side_menu" class="hamb"><span class="hamb_line"></span></label>
         <nav class="nav">

@@ -51,39 +51,8 @@
     }
 }
 
-.contenedor__elements{
-    width: 100%;
-    height: 230px;
-    overflow: hidden;
-    display: grid;
-    grid-template: repeat(3,1fr) / repeat(3,1fr);
-    background-color: blue;
-}
-.contenedor__img{
-    background-color: black;
-    grid-column: 1/4;
-    grid-row: 1/4;
-}
-.contenedor__img img{
-width: 100%;
-height: 270px;
-
-}
-.contenedor-letras{
-    grid-column: 2/3; 
-    grid-row: 2/3; 
-    margin-top: 20px;
-    text-align: center;
-    color: aliceblue;
-}
-.overlay{
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0, 0, 0.575);
-    grid-column: 1/4;
-    grid-row: 1/4;
-}
-
+/*Prier Parte====================================================================
+===============================================================================*/
 
 .container__objetive{
     display: flex;
