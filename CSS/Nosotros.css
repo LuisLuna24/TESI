@@ -4,11 +4,53 @@
     box-sizing: border-box;
 }
 
-.header{
- height: 200px;
- width: 100%;
- overflow: hidden;
+.tituloCCAI{
+    width: 100%;
+    height:  600px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000000 url("../img/TEESI.jpg") no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+    text-align: center;
+  }
+  
+  .divTitulo{
+    background-color: #00000079;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .tituloCCAI .divTitulo h1{
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .tituloCCAI .divTitulo label{
+    font-size: 50px;
+    color: #fff;
+  }
+
+  @media(max-width:700px){
+    .tituloCCAI .divTitulo h1{
+      font-size: 40px;
+    }
+    .tituloCCAI .divTitulo label{
+      font-size: 20px;
+      color: #fff;
+    }
 }
+
 .contenedor__elements{
     width: 100%;
     height: 230px;

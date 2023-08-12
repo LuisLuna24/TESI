@@ -12,13 +12,13 @@
 ==================================================================================================-->
     <header>
         <?php require('Global/cabesera.php'); ?> 
-        <div  class="tituloCCAI">
-            <div id="divTitulo" class="divTitulo">
-                <h1>Privacidad</h1>
-                <label>Bienvenido</label>
-            </div>
-        </div>
     </header>
+    <div  class="tituloCCAI">
+        <div id="divTitulo" class="divTitulo">
+            <h1>Privacidad</h1>
+            <label>Bienvenido</label>
+        </div>
+    </div>
 
 <!--===============================================================================================
                                             Parte final

@@ -4,25 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Nosotros.css?see=1.3">
+    <link rel="stylesheet" href="CSS/Nosotros.css?see=1.3">
     <title>¿QUIENES SOMOS? - CCAI TESE – Centro de Cooperación Academia Industria</title>
 </head>
 <body>
-<header class="header">
-    <?php
-     require('global/cabesera.php');
-   ?>
 
-   <div class="contenedor__elements">
-   <div class="contenedor__img">
-   <img src="img/TesiFondo.jpg" class="header__img">
-   </div>
-   <div class="overlay"></div>
-   <div class="contenedor-letras">
-        <h1>¿QUIENES SOMOS?</h1>
-    </div>  
-    </div>
+    <header class="header">
+        <?php
+        require('global/cabesera.php');
+        ?>
     </header>
+    <div  class="tituloCCAI">
+        <div id="divTitulo" class="divTitulo">
+            <h1>Nosotros</h1>
+            <label>Bienvenido</label>
+        </div>
+    </div>
 
     <section class="objetive">
     <div class="container__objetive">
