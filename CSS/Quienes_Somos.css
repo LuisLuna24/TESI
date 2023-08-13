@@ -1,0 +1,376 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.Cabesera{
+  width: 100%;
+  height: 70vh;
+  background: #000000 url("../img/TEESI.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Cabesera_Titulo{
+  width: 100%;
+  height: 100%;
+  background-color: #00000094;
+  color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  text-align: center;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.Cabesera_Titulo h1{
+  font-size: 3em;
+  font-weight: bolder;
+}
+.Cabesera_Titulo h3{
+  font-size: 2.5em;
+}
+.Cabesera_Titulo h5{
+  font-size: 1.5em;
+}
+
+.contenedor__elements{
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  display: grid;
+  grid-template: repeat(3,1fr) / repeat(3,1fr);
+  background-color: blue;
+}
+.contenedor__img{
+  background-color: black;
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+.contenedor__img img{
+width: 100%;
+height: 270px;
+
+}
+.contenedor-letras{
+  grid-column: 2/3; 
+  grid-row: 2/3; 
+  margin-top: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0, 0, 0.575);
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+
+/* =======================================Section Objetive======================================>*/
+
+.objetive{
+  width: 100%;
+  padding: 30px;
+}
+
+.container__objetive{
+  display: flex;
+  width: 100%;
+  margin-top: 80px;
+  
+  /* height: 400px; */
+  /* box-shadow: 0 0 20px 5px rgba(0,0,0, .5); */
+}
+.container__objetive__text{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 400px; */
+
+}
+
+.Borde{
+  margin-top: 15px;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, rgba(54,90,8,1) 0%, rgba(93,157,11,1) 35%, rgba(114,235,58,1) 100%);
+  border-radius: 15px;
+  
+}
+
+.container__objetive__text__tilte{
+  font-size: 1.4em;
+  font-family: verdana;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container__objetive__text__information{ 
+  margin-top: 20px;
+  text-align: justify;
+  font-family: Arial;
+  padding: 10px;
+}
+
+.container__objetive__text__image{
+  width: 50%;
+  /* height: 400px; */
+}
+.container__objetive__text__image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+}
+
+
+
+
+/* =======================================Section mision======================================>*/
+
+.mision{
+  width: 100%;
+  padding: 30px;
+}
+
+.container__mision{
+  margin-top: 50px;
+  display: flex;
+  width:100%;
+  height: 500px;
+  background-color: #cccacad7;
+  border-radius: 25px;
+  /* box-shadow: 0 0 10px 1px rgba(0,0,0, .5); */
+}
+
+.container__mision__text{
+
+  width: 50%;
+}
+
+.container__mision__text__tite{
+  font-size: 1.4em;
+  font-family: verdana;
+  text-align: center;
+  margin-top: 20%;
+
+}
+
+.container__mision__text__information{
+  font-family: Arial;
+  padding: 30px;
+  font-size: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container__mision__text__image{
+  width: 50%;
+}
+.container__mision__text__image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0 25px 25px 0;
+
+}
+
+.container__mision__text__image--activo{
+  display: none;
+}
+
+/* =======================================Section Activities======================================>*/
+
+
+.container__activities{
+width: 100%;
+margin-top: 40px;
+
+
+}
+.container__activities__text__title{
+  font-size: 1.4em;
+  font-family: verdana;
+  text-align: center;
+}
+
+.container__activities__text__information{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.container__activities__cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container__activities__card{
+  margin-top: 20px;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.container__activities__card__text{
+  margin-top: 30px;
+  /* margin-top: 30px; */
+
+}
+
+
+/* =======================================Section Areas======================================>*/
+.Areas{
+  color: white;
+  --opacidad-negro: 0.5;
+  background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/TEESI.jpg") ;
+  width: 100%;
+  padding: 50px 30px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.Container__Areas{
+  width: 80%;
+  height: 80%;
+  padding: 15px;
+  border: 7px solid #5D9D0B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container__Areas__title{
+  font-size: 1.6em;
+  text-align: center;
+  margin-top: 20px;
+}
+.Container__Areas__text{
+ display: flex;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+/* =======================================Section AreasE======================================>*/
+.container__AreasE{
+  background: linear-gradient(180deg, rgb(34, 131, 1) 0%, rgba(69,121,9,1) 46%, rgb(86, 114, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container__AreasE__Todo{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.container__AreasE__card{
+  width: 23%;
+  min-width: 260px;
+  padding: 20px;
+  border: 10px solid white ;
+  margin-top: 10px;
+  transition: 0.3s;
+  gap: 10px;
+}
+
+.container__AreasE__card:hover{
+  background-color: white;
+}
+
+.container__AreasE__title{
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+
+
+
+
+@media (max-width: 860px) {
+
+.container__objetive__text__image{
+     display: none;
+}
+.container__objetive__text{
+  color: aliceblue;
+  width: 100%;
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(17, 17, 16, 0.5)), url("../img/instalacion-4.jpg") ;
+  background-position: 20% 20%;
+  background-size: cover;
+}   
+
+.container__mision{
+  display:block;
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(17, 17, 16, 0.5)), url("../img/Sistemsa1.jpg") ;
+  background-size: cover;
+  color: white;
+  text-align: center;
+
+}
+
+.container__mision__text{
+  width: 100%;
+}
+.container__mision__text__image{
+  display: none;
+}
+.container__mision__text__image--activo{
+  display: flex;
+  width: 100%;
+}
+.container__mision__text__image--activo{
+  display: flex;
+  width: 100%;
+}
+.container__mision__text__image--activo img{
+  width: 100%;
+}
+
+.container__mision__text{
+  width: 100%;
+}
+
+.container__Areas__title{
+  font-size: 1.2em;
+}
+
+.tituloCCAI .divTitulo h1{
+  font-size: 3.5em;
+}
+
+.tituloCCAI .divTitulo label{
+  font-size: 2.5em;
+}
+.Container__Areas__text{
+  font-size: 1em;
+}
+
+.Container__Areas{
+  width: 100%;
+  height: 90%;
+}
+}
+
+

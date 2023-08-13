@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ 
+
+  .Form_Registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .Form_Registro_Contenedor{
+    flex: 1 0 0 250px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccacad7;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding:30px
+  }
+  
+  .invalido{
+    color: red;
+    opacity: 0;
+  }
+
+  
+  .Form_Registro_Titulo img{
+    width: 100%;
+  }
+  
+
+  .Form_Registro_Preguntas{
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Registros_Label{
+    width: 100%;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .Registro_Texto{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    box-decoration-break: none;
+    outline: none;
+    border-bottom: 4px solid rgba(155, 155, 155, 0.89);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+  }
+
+  .Registro_Area{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: none;
+    background-color: transparent;
+    box-decoration-break: none;
+    outline: none;
+    border-bottom: 4px solid rgba(155, 155, 155, 0.89);
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+  }
+
+  
+
+
+.Form_Botones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Check{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.boton_enviar{
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #5D9D0B;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.boton_enviar:hover{
+    border: 5px solid #5D9D0B;
+    background-color: rgba(0, 0, 0, 0);
+    color:#5D9D0B;
+}
+
+
+.Form_Registro_Titulo{
+    width: 30%;
+    height:500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #5D9D0B;
+    border-radius: 20px;
+  }
+
+.Form_Registro_Titulo .Form_Titulo_h1{
+    text-align: center;
+    font-size: 4em;
+}
+
+.Form_Registro_Titulo p{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.Contenedor_Imagen{
+    width: 100%; /* Ajustar el ancho del contenedor según tus necesidades */
+    max-width: 250px;
+    height: 100%;
+    max-height: 250px;
+}
+.Contenedor_Imagen img{
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%;
+}
+/*===========================================Imagness======00========================*/
+
+.Redes_Sociales{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.Redes_Sociales_facebook{
+  position: relative;
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-width:50px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.Redes_Sociales_youtube{
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-width:50px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.Redes_Sociales_tesi{
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-width:50px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Redes_Sociales_facebook a img{
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: 0.5s;
+}
+.Redes_Sociales_youtube a img{
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: 0.5s;
+}
+.Redes_Sociales_tesi a img{
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: 0.5s;
+}
+
+
+
+.contenedor_img_sociales{
+  width: 100%;
+}
+
+.titulo_facebook{
+  position: absolute;
+  opacity: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2px;
+  transition: 0.5s;
+}
+.titulo_youtube{
+  position: absolute;
+  opacity: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2px;
+  transition: 0.5s;
+}
+.titulo_tesi{
+  position: absolute;
+  opacity: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2px;
+  transition: 0.5s;
+}
+
+
+.Redes_Sociales_facebook:hover .titulo_facebook{
+  opacity: 1;
+  transform: translateY(32px);
+  color: rgb(27, 103, 245);
+  font-size: 18px;
+}
+.Redes_Sociales_facebook:hover a img{
+  background-color: rgb(27, 103, 245);
+  border: 3px solid rgb(27, 103, 245);
+  
+}
+
+.Redes_Sociales_youtube:hover .titulo_youtube{
+  opacity: 1;
+  transform: translateY(32px);
+  color: rgb(245, 27, 27);
+  font-size: 18px;
+}
+.Redes_Sociales_youtube:hover a img{
+  background-color: rgb(245, 27, 27);
+  border: 3px solid rgb(245, 27, 27);
+  
+}
+
+.Redes_Sociales_tesi:hover .titulo_tesi{
+  opacity: 1;
+  transform: translateY(32px);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+.Redes_Sociales_tesi:hover a img{
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  
+}
+
+
+
+@media(max-width:700px){
+    .Form_Registro_Contenedor{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Form_Registro_Titulo{
+        width: 100%;
+        height: auto;
+    }
+    .Form_Registro_Preguntas{
+        width: 100%;
+    }
+    .Form_Registro_Titulo .Form_Titulo_h1{
+        font-size: 2em;
+    }
+}

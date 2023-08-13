@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .Cabesera{
+    width: 100%;
+    height: 70vh;
+    background: #000000 url("../img/TEESI.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Cabesera_Titulo{
+    width: 100%;
+    height: 100%;
+    background-color: #00000094;
+    color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.Cabesera_Titulo h1{
+    font-size: 3em;
+    font-weight: bolder;
+}
+.Cabesera_Titulo h3{
+    font-size: 2.5em;
+}
+.Cabesera_Titulo h5{
+    font-size: 1.5em;
+}
+
+  .Pdf{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  }
+
+  .pdf_Visualizar{
+    max-width: 80%;
+    height: 1000px;
+  }
