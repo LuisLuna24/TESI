@@ -16,12 +16,13 @@
     <header>
         <?php require('Global/cabesera.php'); ?> 
     </header>
-    <div  class="tituloCCAI">
-        <div  class="divTitulo">
+    <section class="Cabesera">
+        <div class="Cabesera_Titulo">
             <h1>Tecnológico de Estudios Superiores de Ixtapaluca</h1>
-            <label>Bienvenido al <br>PROYECTO DE CENTRO DE COOPERACIÓN ACADÉMICA – INDUSTRIA(CCAI) del <br> Tecnologico de Estudios Superiores de Ixtapaluca </label>
+            <h3>Bienvenido</h3>
+            <h5>PROYECTO DE CENTRO DE COOPERACIÓN ACADÉMICA – INDUSTRIA(CCAI) del <br> Tecnologico de Estudios Superiores de Ixtapalucas</h5>
         </div>
-    </div>
+    </section>
 
 <!--===============================================================================================
                                             Parte 1

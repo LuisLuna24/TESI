@@ -34,6 +34,7 @@ header{
     transition: max-height .5s ease-out;
 }
 
+
 .menu a{
     display: block;
     padding: 30px;
@@ -114,6 +115,9 @@ header{
         float: left;
     }
 
+    .menu a {
+        height: 30px;
+    }
     .menu a:hover{
         background-color: transparent;
         color: #f78400;

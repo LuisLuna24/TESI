@@ -13,7 +13,7 @@
                 <li><a href="Quienes_Somos.php">¿Quienes Somos?</a></li>
                 <li><a href="Servicios.php">Servicios</a></li>
                 <li><a href="privacidad.php">Privacidad</a></li>
-                <li><a href="Nosotros.php">Nosotrso</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
             </ul>
         </nav>
     </header>
