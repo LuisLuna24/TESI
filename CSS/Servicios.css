@@ -2,50 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+.Cabesera{
     width: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.tituloCCAI{
-    width: 100%;
-    height:  600px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    height: 70vh;
     background: #000000 url("../img/TEESI.jpg") no-repeat;
     background-size: cover;
-    z-index: -1;
-    text-align: center;
+    background-position: center;
 }
 
-.divTitulo{
-    background-color: #00000079;
+.Cabesera_Titulo{
     width: 100%;
     height: 100%;
+    background-color: #00000094;
+    color: #f6f6f6;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-
-.tituloCCAI .divTitulo h1{
-    font-size: 100px;
-    color: #fff;
+    justify-content: center;
+    gap:20px;
     text-align: center;
+    font-family: 'Urbanist', sans-serif;
 }
 
-.tituloCCAI .divTitulo label{
-    font-size: 50px;
-    color: #fff;
+.Cabesera_Titulo h1{
+    font-size: 3em;
+    font-weight: bolder;
 }
-
+.Cabesera_Titulo h3{
+    font-size: 2.5em;
+}
+.Cabesera_Titulo h5{
+    font-size: 1.5em;
+}
 
 /*===========================================Parte 1=======================================*/
 

@@ -13,13 +13,13 @@
 ==================================================================================================-->
     <header>
         <?php require('Global/cabesera.php'); ?>
-        <div  class="tituloCCAI">
-            <div id="divTitulo" class="divTitulo">
-                <h1>Servicios</h1>
-                <label>Bienvenido</label>
-            </div>
-        </div>
     </header>
+    <section class="Cabesera">
+        <div class="Cabesera_Titulo">
+            <h1>Servicios</h1>
+            <h3>Bienvenido</h3>
+        </div>
+    </section>
 
 <!--===============================================================================================
                                             Parte 1
@@ -33,15 +33,15 @@
                 <img class="Actividades_Card_Img" src="img/img1.jpg" alt="">
                 <div class="Actividades_Card_Contenido">
                     <h1>Industria 4.0</h1>
-                    <p>En la industria 4.0 se cubre las nesecidades de las diferentes area dela salud como sistemas de modelados con realidad aumentada previos a cirugías, seguridad publica  como mapeo inteligente de zonas delictivas, empresas en general con desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa entre otros servicios.</p>
+                    <p>En la industria 4.0 se cubre las necesidades de las diferentes áreas dela salud como sistemas de modelados con realidad aumentada previos a cirugías, seguridad pública como mapeo inteligente de zonas delictivas, empresas en general con desarrollo de aplicaciones y tecnologías acordes a las necesidades de la empresa entre otros servicios.</p>
                 </div>
             </div>
 
             <div class="Acividades_Card">
                 <img class="Actividades_Card_Img" src="img/img4.jpg" alt="">
                 <div class="Actividades_Card_Contenido">
-                    <h1>Gestion Clinica<br>Hospitalaria</h1>
-                    <p>Cubrir las necesidades de los hospitales públicos y privados de segundo nivel, clínicas o centros de salud  y empresas de la zona dedicadas al ámbito biomédico, donde puede brindar mantenimiento a dispositivos médicos y con ello solucionar problemas de forma inmediata.</p>
+                    <h1>Gestión Clínica<br>Hospitalaria</h1>
+                    <p>Cubrir las necesidades de los hospitales públicos y privados de segundo nivel, clínicas o centros de salud y empresas de la zona dedicadas al ámbito biomédico, donde puede brindar mantenimiento a dispositivos médicos y con ello solucionar problemas de forma inmediata.</p>
                 </div>
             </div>
 
@@ -49,7 +49,7 @@
                 <img class="Actividades_Card_Img" src="img/img5.jpg" alt="">
                 <div class="Actividades_Card_Contenido">
                     <h1>Arquitectura 4.0</h1>
-                    <p>Con los años al paso del crecimiento urbano en los municipios de Ixtapaluca, Chalco, Valle de Chalco, Texcoco, Chimalhuacán y La Paz, ha generado la necesidad de proveer servicios técnicos y profesionales relacionados con la arquitectura y la industria de la construcción con los cuales se puedan ofrecer asesorías técnicas, pruebas de laboratorio a los materiales. </p>
+                    <p>Con los años, al paso del crecimiento urbano en los municipios de Ixtapaluca, Chalco, Valle de Chalco, Texcoco, Chimalhuacán y La Paz, ha generado la necesidad de proveer servicios técnicos y profesionales relacionados con la arquitectura y la industria de la construcción con los cuales se puedan ofrecer asesorías técnicas, pruebas de laboratorio a los materiales. </p>
                 </div>
             </div>
         </div>
@@ -61,14 +61,14 @@
     <section class="Servicios">
         <div class="linea"></div>
         <h1 class="Servicios-Titulo">Actividades a Realizar</h1>
-        <p class="Servicio_Contenido">El centro CAI busca brindar soluciones tecnológicas y mejorar las condiciones de ejecución de procesos de las empresas y distintos sectores de la zona, con el objetivo de investigar, diseñar e innovar procesos y productos. <br> Las actividades que se pretender llevar a cabo son las siguientes:</p>
+        <p class="Servicio_Contenido">El centro CAI busca brindar soluciones tecnológicas y mejorar las condiciones de ejecución de procesos de las empresas y distintos sectores de la zona, con el objetivo de investigar, diseñar e innovar procesos y productos. <br> Las actividades que sé pretender llevar a cabo son las siguientes:</p>
         <div class="Cards">
             <nav class="Servicios_Contenedor">
                 <img class="Imagen_Servicios" src="img/img1.jpg" alt="">
                 <div class="Servicios_Card">
                     <div class="Contenido">
                         <h1 class="Card_Titulo">Industria 4.0</h1>
-                        <p class="Card_Contenido Contenido1">•	Desarrollo de software para los sectores gubernamentales, privados y públicos.<br>•	Desarrollo de plataformas web.<br>•	Automatización de procesos.<br>•	Servicios de mantenimiento de red y equipo de cómputo a empresas.<br>•	Servicios de ciberseguridad. <br>•	Capacitaciones para la zona oriente. </p>
+                        <p class="Card_Contenido Contenido1">•	Desarrollo de software para los sectores gubernamentales, privados y públicos.<br>• Desarrollo de plataformas web.<br>• Automatización de procesos.<br>•    Servicios de mantenimiento de red y equipo de cómputo a empresas.<br>• Servicios de ciberseguridad. <br>• Capacitaciones para la zona oriente. </p>
                     </div>
                     <div class="Contenido">
                         <h1>Algunas de las empresas que se trabaja:</h1>
@@ -77,7 +77,7 @@
             
                     <div class="Contenido">
                         <h1>Con estas empresas se pretende trabajar:</h1>
-                        <p class="Card_Contenido Contenido3">•	Asesoría en Tecnologías de la Industria 4.0<br>•	Yakult.<br>•	Cruz Roja.<br>•	Centros Educativos (Básico, Medio Superior y Superior).<br>•	Centros comerciales.<br>•	Plazas de cobro (Autopistas).<br>•	Unidades habitacionales.<br>•	Asentamientos de colonias nuevas. (Ayuntamiento).<br>•	Alimentos Especializados Gómez S.A de C.V. <br>•	Seguridad Pública.</p>
+                        <p class="Card_Contenido Contenido3">•	Asesoría en Tecnologías de la Industria 4.0<br>• Yakult.<br>•    Cruz Roja.<br>• Centros Educativos (Básico, Medio Superior y Superior).<br>•    Centros comerciales.<br>•   Plazas de cobro (Autopistas).<br>• Unidades habitacionales.<br>•   Asentamientos de colonias nuevas. (Ayuntamiento).<br>• Alimentos Especializados Gómez S.A. de C.V. <br>• Seguridad Pública.</p>
                     </div>
                 </div>
             </nav>
@@ -89,7 +89,7 @@
                 <div class="Servicios_Card">
                     <div class="Contenido">
                         <h1 class="Card_Titulo">Arqitectura 4.0</h1>
-                        <p class="Card_Contenido Contenido1">Las actividades que se han considerado a desarrollar son diseño y desarrollo de proyectos, procesos constructivos y estudios de mecánica de suelo. <br>1.	Autocad Estudiantil (Diseño 2D y 3D). <br>2.	SketchUp  (Animación). <br>3.	Lumion (Recorrido virtual). <br>4.	Revit BIM (Diseño Building Information Modeling). <br>5.	Opus / Neodata (Cálculo de Precios Unitarios y Presupuestos) <br>6.	Cyped / SAP 2000 (Cálculo de estructuras de concreto y acero) </p>
+                        <p class="Card_Contenido Contenido1">Las actividades que se han considerado a desarrollar son diseño y desarrollo de proyectos, procesos constructivos y estudios de mecánica de suelo. <br>1.  Autocad Estudiantil (Diseño 2D y 3D). <br>2.    Sketch Up  (Animación). <br>3.   Lumion (Recorrido virtual). <br>4.  Revit BIM (Diseño Building Information Modeling). <br>5.    Opus / Neodata (Cálculo de Precios Unitarios y Presupuestos) <br>6. Cyped / SAP 2000 (Cálculo de estructuras de concreto y acero) </p>
                     </div>
                     <div class="Contenido">
                         <h1>Procesos Constructivos:</h1>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="Contenido">
                         <h1>Estudios de mecánica de suelos:</h1>
-                        <p class="Card_Contenido Contenido3"> Identificar tipo de suelo, capacidad de carga de suelo, limite plástico y elástico de este. <br>1.	Meseta de concreto para colocación de horno. <br>2.	Instalación eléctrica especial a 220 volts. <br>3.	Meseta para tamiz.  <br>4.	Meseta para Basculas de precisión. <br>5.	Tarja de lavado.  <br>6.	3 mesas de trabajo. </p>
+                        <p class="Card_Contenido Contenido3"> Identificar tipo de suelo, capacidad de carga de suelo, limite plástico y elástico de este. <br>1.    Meseta de concreto para colocación de horno. <br>2. Instalación eléctrica especial a 220 volts. <br>3.  Meseta para tamiz.  <br>4.  Meseta para Básculas de precisión. <br>5.   Tarja de lavado.  <br>6.    3 mesas de trabajo. </p>
                     </div>
                 </div>
                 

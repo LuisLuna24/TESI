@@ -12,13 +12,13 @@
 ==================================================================================================-->
     <header>
         <?php require('Global/cabesera.php'); ?> 
-        <div  class="tituloCCAI">
-            <div id="divTitulo" class="divTitulo">
-                <h1>Registrate</h1>
-                <label>Bienvenido registra tu residencia y/o servicio social</label>
-            </div>
-        </div>
     </header>
+    <div  class="tituloCCAI">
+        <div id="divTitulo" class="divTitulo">
+            <h1>Registrate</h1>
+            <label>Bienvenido registra tu residencia y/o servicio social</label>
+        </div>
+    </div>
 <!--===============================================================================================
                                             Parte 1
 ==================================================================================================-->
