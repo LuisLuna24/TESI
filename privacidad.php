@@ -12,13 +12,20 @@
 ==================================================================================================-->
     <header>
         <?php require('Global/cabesera.php'); ?> 
-        <div  class="tituloCCAI">
-            <div id="divTitulo" class="divTitulo">
-                <h1>Privacidad</h1>
-                <label>Bienvenido</label>
-            </div>
-        </div>
     </header>
+    <section class="Cabesera">
+        <div class="Cabesera_Titulo">
+            <h1>Privacidad</h1>
+            <h3>Bienvenido</h3>
+        </div>
+    </section>
+
+<!--===============================================================================================
+                                            Parte final
+==================================================================================================-->
+    <section class="Pdf">
+        <embed class="pdf_Visualizar" src="img/Prueba.pdf" type=""  width= "80%" height="800px">
+    </section>
 
 <!--===============================================================================================
                                             Parte final
