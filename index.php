@@ -107,7 +107,7 @@
     <section class="Impacto" id="Impacto">
         <div class="Impacto_Contenedor">
             <div class="Impacto_Contenido">
-                <h1 class="Impacto_Titulo">Areas de impacto</h1>
+                <h1 class="Impacto_Titulo">Áreas de impacto</h1>
                 <p class="ImpactoContenido">Se considera que, de acuerdo con la zona de influencia del TESI los municipios en los cuales impactara la creación y puesta en marcha del Centro CAI sin: Ixtapaluca, Chalco, Valle de Chalco, Chimalhuacán, La Paz, Chicoloapan, algunas empresas de Nezahualcóyotl, Texcoco y Ciudad de México</p>
             </div>
         </div>
@@ -122,23 +122,23 @@
                 <img src="img/services.svg" alt="">
                 <div class="Explorar_Card_Contenido">
                     <h1>Nuestros<br>Servicios</h1>
-                    <p>Informacion a qui</p>
+                    <p>Información aquí</p>
                 </div>
                 <a class="Explorar_Card_Boton" href="servicios.php">Leer Más</a>
             </div>
             <div class="Explorar_Card">
                 <img src="img/acerca-de.svg" alt="">
                 <div class="Explorar_Card_Contenido">
-                    <h1>¿Quienes<br>somos?</h1>
-                    <p>Informacion a qui</p>
+                    <h1>Quiénes<br>somos?</h1>
+                    <p>Información quí</p>
                 </div>
                 <a class="Explorar_Card_Boton" href="Quienes_Somos.php">Leer Más</a>
             </div>
             <div class="Explorar_Card">
                 <img src="img/investigacion-y-desarrollo.svg" alt="">
                 <div class="Explorar_Card_Contenido">
-                    <h1>Nuestra<br>Investigacion</h1>
-                    <p>Informacion a qui</p>
+                    <h1>Nuestra<br>Investigación</h1>
+                    <p>Información aquí</p>
                 </div>
                 <a class="Explorar_Card_Boton" href="investigacion.php">Leer Más</a>
             </div>
@@ -146,7 +146,7 @@
                 <img src="img/privacidad.svg" alt="">
                 <div class="Explorar_Card_Contenido">
                     <h1>Privacidad</h1>
-                    <p>Informacion a qui</p>
+                    <p>Información aquí</p>
                 </div>
                 <a class="Explorar_Card_Boton" href="privacidad.php">Leer Más</a>
             </div>
@@ -160,9 +160,9 @@
     <Section class="Contacto" id="Contacto_Index">
         <nav class="Contacto_Contenedor">
             <div class="Contacto_Texto">
-                <h1 class="Contacto_Titulo">Registrate</h1>
-                <p class="Contacto_Texto">Registra tu residencias y/o servicio social</p>
-                <a href="registro.php" class="cta"><span>Registrarce</span><svg viewBox="0 0 13 10" height="10px" width="15px"><path d="M1,5 L11,5"></path><polyline points="8 1 12 5 8 9"></polyline></svg></a>
+                <h1 class="Contacto_Titulo">Regístrate</h1>
+                <p class="Contacto_Texto">Registra tú residencias y/o servicio social</p>
+                <a href="registro.php" class="cta"><span>Registrarse</span><svg viewBox="0 0 13 10" height="10px" width="15px"><path d="M1,5 L11,5"></path><polyline points="8 1 12 5 8 9"></polyline></svg></a>
             </div>
         </nav>    
     </Section>

@@ -14,7 +14,7 @@
         <?php require('Global/cabesera.php'); ?> 
         <div  class="tituloCCAI">
             <div id="divTitulo" class="divTitulo">
-                <h1>Investigacion</h1>
+                <h1>Investigación</h1>
                 <label>Bienvenido</label>
             </div>
         </div>
@@ -32,7 +32,7 @@
     <secttion class="Beneficios">
         <nav class="Beneficios_Titulo">
         <h1>PROPÓSITO</h1>
-        <p>Fortalecer a las Unidades Económicas de la región principalmente pequeñas y medianas empresas, favoreciendo la competitividad y productividad, mediante la investigación y desarrollo</p>
+        <p>Fortalecer a las Unidades Económicas de la región, principalmente pequeñas y medianas empresas, favoreciendo la competitividad y productividad, mediante la investigación y desarrollo</p>
         </nav>
         <nav class="Beneficios_Contenedor">
             <img src="img/img1.jpg" class="img_Beneficios">
@@ -50,8 +50,8 @@
     <section class="Antecedentes">
         <nav class="Antecedentes_Contenedor">
             <div class="Antecedentes_Titulo">
-                <h1>Nuestros Antecedentes</h1>
-                <p>En 23 años de operación académica el área de Vinculación ha consolidado sus funciones que permiten dar respuesta a las necesidades actuales: se han incorporado a más de 2,905 estudiantes que han realizado sus residencias profesionales en los convenios que se tienen y han tenido con las empresas. </p>
+            <h1>Nuestros Antecedentes</h1>
+            <p>En 23 años de operación académica, el área de Vinculación ha consolidado sus funciones que permiten dar respuesta a las necesidades actuales: se han incorporado a más de 2,905 estudiantes que han realizado sus residencias profesionales en los convenios que se tienen y han tenido con las empresas. </p>
             </div>
             <div class="Antecedentes_Slayer">
                 <div class="Antecedentes_Slayer_Imagenes">
