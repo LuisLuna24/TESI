@@ -12,12 +12,6 @@
 ==================================================================================================-->
     <header>
         <?php require('Global/cabesera.php'); ?> 
-        <div  class="tituloCCAI">
-            <div id="divTitulo" class="divTitulo">
-                <h1>Investigación</h1>
-                <label>Bienvenido</label>
-            </div>
-        </div>
     </header>
     <section class="Cabesera">
         <div class="Cabesera_Titulo">
