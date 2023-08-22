@@ -101,7 +101,7 @@ header{
     top: 0;
 }
 
-@media(min-width: 768px){
+@media(min-width: 1000px){
     .nav{
         max-height: none;
         top: -15px;
