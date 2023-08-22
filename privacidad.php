@@ -24,6 +24,7 @@
                                             Parte final
 ==================================================================================================-->
     <section class="Pdf">
+        <h1 class="Pdf_Titulo" >Acuerdos de Privacidad</h1>
         <embed class="pdf_Visualizar" src="img/Prueba.pdf" type=""  width= "80%" height="800px">
     </section>
 
