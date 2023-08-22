@@ -278,16 +278,15 @@ body{
 
 .Servicios_Targetas{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 10px;
+    place-items: center;
 }
 
 .Servicio_Card{
+    max-width: 300px;
     min-width: 270px;
-    width: 350px;
     min-height: 350px;
     height: 570px;
     background-color: #cccacad7;

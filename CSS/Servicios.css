@@ -59,11 +59,9 @@
 .Actividades_Contenedor{
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap:50px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    place-items: center;
 }
 
 .Actividades_Card_Img{
@@ -72,7 +70,7 @@
 }
 
 .Acividades_Card{
-    width: 100%;
+    max-width: 350px;
     min-height: 550px;
     display: flex;
     align-items: center;
@@ -91,14 +89,6 @@
     font-size: 18px;
 }
 
-@media(max-width:700px){
-    .Actividades_Contenedor{
-        grid-template-rows: repeat(3,1fr);
-        gap: 20px;
-        grid-template-columns: 100%;
-        width: 90%;
-    }
-}
 
 @media(max-width:700px){
     .Actividades_Titulo{
