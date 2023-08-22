@@ -47,20 +47,6 @@
   padding: 30px;
   }
 
-  
-  .tituloCCAI .divTitulo label{
-    font-size: 50px;
-    color: #fff;
-  }
-
-  .Pdf{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  }
-
   .pdf_Visualizar{
     max-width: 80%;
     height: 1000px;
