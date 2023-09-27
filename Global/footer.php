@@ -25,6 +25,5 @@
             <label class="Tesi_Titulo">Tesi</label>
         </div>
     </div>
-
-
+    
 </div>
